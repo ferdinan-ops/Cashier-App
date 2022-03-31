@@ -1,0 +1,24 @@
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Menu.resources
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\Aplikasi Kasir Revisi Lagi.vbproj.GenerateResource.Cache
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_databarang.resources
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_inputbarang.resources
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_penjulan.resources
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_user.resources
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_login.resources
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\Aplikasi Kasir Revisi Lagi.vbprojResolveAssemblyReference.cache
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_laporandatabarang.resources
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Lap_Harian.resources
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Lap_Jual_Bulanan.resources
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Lap_Tahunan.resources
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_flash.resources
+D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.form_register.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
