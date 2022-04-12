@@ -9,3 +9,5 @@
 ![PENGGUNA](https://user-images.githubusercontent.com/84588706/162619501-8d6a1903-cec3-4f82-b3a4-710c42f7380c.jpg)
 
 ![CRUD PENGGUNA](https://user-images.githubusercontent.com/84588706/162619821-ffee05fc-bfa5-403f-92c9-7e10ac5263c2.jpg)
+
+![BARANG](https://user-images.githubusercontent.com/84588706/162918910-823d6936-f645-4cec-8569-04ad4229f1c1.jpg)
