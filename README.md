@@ -13,5 +13,7 @@
 ![BARANG](https://user-images.githubusercontent.com/84588706/162918910-823d6936-f645-4cec-8569-04ad4229f1c1.jpg)
 
 ![CRUD BARANG](https://user-images.githubusercontent.com/84588706/162918994-01917b61-d591-49bb-bfed-b42960182e81.jpg)
+
 ![PENJUALAN](https://user-images.githubusercontent.com/84588706/162919165-ed29d8bd-83f9-4a89-acd8-4ce2255fad7d.jpg)
+
 ![PENJUALAN - CASHIER](https://user-images.githubusercontent.com/84588706/162919240-25d46e89-4cd3-4876-82f0-76c833e883da.jpg)
