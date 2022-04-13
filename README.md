@@ -15,6 +15,7 @@
 
 
 
+![CRUD BARANG](https://user-images.githubusercontent.com/84588706/163210264-78fae53d-0674-4ffe-a0fb-0e374de8cf5c.jpg)
 
 
 
