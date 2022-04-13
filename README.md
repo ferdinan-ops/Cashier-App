@@ -7,4 +7,17 @@
 
 ![PENGGUNA](https://user-images.githubusercontent.com/84588706/163209998-3e84090a-5bb7-4d47-8a0f-a006dce4d19a.jpg)
 
+
+![CRUD PENGGUNA](https://user-images.githubusercontent.com/84588706/163210174-5c55691a-1177-4135-82b8-3315b12e125e.jpg)
+
+
+
+
+
+
+
+
+
+
+
 <!-- ![PENJUALAN - CASHIER](https://user-images.githubusercontent.com/84588706/162919240-25d46e89-4cd3-4876-82f0-76c833e883da.jpg) -->
