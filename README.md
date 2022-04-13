@@ -18,6 +18,7 @@
 ![CRUD BARANG](https://user-images.githubusercontent.com/84588706/163210264-78fae53d-0674-4ffe-a0fb-0e374de8cf5c.jpg)
 
 
+![LAPORAN DATA BARANG](https://user-images.githubusercontent.com/84588706/163210351-d2c04bae-6e0a-4e68-bdc4-001d31c31e0d.jpg)
 
 
 
