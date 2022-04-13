@@ -22,5 +22,6 @@
 
 
 
+![PENJUALAN](https://user-images.githubusercontent.com/84588706/163210477-141cdcf2-957f-43ff-9ea2-88af111f7ae4.jpg)
 
 <!-- ![PENJUALAN - CASHIER](https://user-images.githubusercontent.com/84588706/162919240-25d46e89-4cd3-4876-82f0-76c833e883da.jpg) -->
