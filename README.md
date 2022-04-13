@@ -11,6 +11,7 @@
 ![CRUD PENGGUNA](https://user-images.githubusercontent.com/84588706/163210174-5c55691a-1177-4135-82b8-3315b12e125e.jpg)
 
 
+![BARANG](https://user-images.githubusercontent.com/84588706/163210220-d9e10d6c-c9f3-4df7-b5b6-918545b97874.jpg)
 
 
 
