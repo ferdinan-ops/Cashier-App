@@ -20,3 +20,4 @@
 
 ![PENJUALAN - CASHIER](https://user-images.githubusercontent.com/84588706/162919240-25d46e89-4cd3-4876-82f0-76c833e883da.jpg)
 ![LAPORAN HARIAN](https://user-images.githubusercontent.com/84588706/163531801-d76181c6-37bb-4289-a0eb-b23f63c95352.jpg)
+![LAPORAN BULANAN](https://user-images.githubusercontent.com/84588706/163531918-cd13ad22-d999-4f5e-8c15-fa420bf102df.jpg)
