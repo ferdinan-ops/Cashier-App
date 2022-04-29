@@ -80,6 +80,12 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dashboard.Designer.vb">
+      <DependentUpon>dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form_flash.Designer.vb">
       <DependentUpon>Form_flash.vb</DependentUpon>
     </Compile>
@@ -213,6 +219,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_flash.resx">
       <DependentUpon>Form_flash.vb</DependentUpon>
     </EmbeddedResource>

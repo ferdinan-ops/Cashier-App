@@ -170,7 +170,7 @@ Partial Class login
         Me.txtPassword.BackColor = System.Drawing.Color.White
         Me.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtPassword.FocusedLineColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.txtPassword.Font = New System.Drawing.Font("Poppins", 20.29091!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPassword.Font = New System.Drawing.Font("Poppins", 13.74545!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPassword.LineColor = System.Drawing.Color.Black
         Me.txtPassword.LineSize = 5
         Me.txtPassword.Location = New System.Drawing.Point(1112, 595)

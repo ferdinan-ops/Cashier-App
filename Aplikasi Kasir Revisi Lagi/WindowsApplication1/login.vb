@@ -22,10 +22,9 @@ Public Class login
             Rd = Cmd.ExecuteReader
             Rd.Read()
             If Rd.HasRows = True Then
-                Form_Menu.lbl_level.Text = Rd.Item("Lvl")
-                Form_Menu.lbl_nama.Text = Rd.Item("NamaUser")
+                dashboard.txtLogin.Text = Rd.Item("NamaUser") + " / " + Rd.Item("Lvl")
                 Me.Hide()
-                Form_Menu.Show()
+                dashboard.Show()
             Else
                 MessageBox.Show("Password atau Username Anda Salah")
             End If
