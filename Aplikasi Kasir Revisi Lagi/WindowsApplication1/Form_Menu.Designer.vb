@@ -131,7 +131,7 @@ Partial Class Form_Menu
         Me.lbl_level.ForeColor = System.Drawing.Color.White
         Me.lbl_level.Location = New System.Drawing.Point(119, 652)
         Me.lbl_level.Name = "lbl_level"
-        Me.lbl_level.Size = New System.Drawing.Size(94, 20)
+        Me.lbl_level.Size = New System.Drawing.Size(109, 24)
         Me.lbl_level.TabIndex = 67
         Me.lbl_level.Text = "Level User"
         '
@@ -143,7 +143,7 @@ Partial Class Form_Menu
         Me.lbl_nama.ForeColor = System.Drawing.Color.White
         Me.lbl_nama.Location = New System.Drawing.Point(123, 619)
         Me.lbl_nama.Name = "lbl_nama"
-        Me.lbl_nama.Size = New System.Drawing.Size(98, 20)
+        Me.lbl_nama.Size = New System.Drawing.Size(113, 24)
         Me.lbl_nama.TabIndex = 66
         Me.lbl_nama.Text = "Nama User"
         '
@@ -155,7 +155,7 @@ Partial Class Form_Menu
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(47, 653)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(66, 20)
+        Me.Label4.Size = New System.Drawing.Size(78, 24)
         Me.Label4.TabIndex = 65
         Me.Label4.Text = "Level : "
         '
@@ -167,7 +167,7 @@ Partial Class Form_Menu
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(47, 619)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(70, 20)
+        Me.Label3.Size = New System.Drawing.Size(82, 24)
         Me.Label3.TabIndex = 64
         Me.Label3.Text = "Nama : "
         '
@@ -191,7 +191,7 @@ Partial Class Form_Menu
         Me.Button7.Font = New System.Drawing.Font("Cooper Black", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.Location = New System.Drawing.Point(511, 548)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(166, 32)
+        Me.Button7.Size = New System.Drawing.Size(172, 54)
         Me.Button7.TabIndex = 62
         Me.Button7.Text = "Laporan Tahunan"
         Me.Button7.UseVisualStyleBackColor = False
@@ -204,7 +204,7 @@ Partial Class Form_Menu
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(37, 4)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(233, 19)
+        Me.Label1.Size = New System.Drawing.Size(284, 22)
         Me.Label1.TabIndex = 61
         Me.Label1.Text = "Ferdinan Imanuel Tumanggor"
         '
@@ -286,7 +286,7 @@ Partial Class Form_Menu
         Me.Button5.Font = New System.Drawing.Font("Cooper Black", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.Location = New System.Drawing.Point(393, 326)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(131, 27)
+        Me.Button5.Size = New System.Drawing.Size(131, 48)
         Me.Button5.TabIndex = 54
         Me.Button5.Text = "Penjualan"
         Me.Button5.UseVisualStyleBackColor = False
@@ -300,7 +300,7 @@ Partial Class Form_Menu
         Me.Button4.Font = New System.Drawing.Font("Cooper Black", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Location = New System.Drawing.Point(560, 326)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(149, 27)
+        Me.Button4.Size = New System.Drawing.Size(156, 64)
         Me.Button4.TabIndex = 53
         Me.Button4.Text = "Laporan Barang"
         Me.Button4.UseVisualStyleBackColor = False
@@ -314,7 +314,7 @@ Partial Class Form_Menu
         Me.Button3.Font = New System.Drawing.Font("Cooper Black", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(307, 548)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(159, 32)
+        Me.Button3.Size = New System.Drawing.Size(162, 68)
         Me.Button3.TabIndex = 52
         Me.Button3.Text = "Laporan Bulanan"
         Me.Button3.UseVisualStyleBackColor = False
@@ -328,7 +328,7 @@ Partial Class Form_Menu
         Me.Button2.Font = New System.Drawing.Font("Cooper Black", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(118, 548)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(149, 32)
+        Me.Button2.Size = New System.Drawing.Size(157, 68)
         Me.Button2.TabIndex = 51
         Me.Button2.Text = "Laporan Harian"
         Me.Button2.UseVisualStyleBackColor = False
@@ -342,7 +342,7 @@ Partial Class Form_Menu
         Me.Button1.Font = New System.Drawing.Font("Cooper Black", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(51, 326)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(131, 27)
+        Me.Button1.Size = New System.Drawing.Size(138, 48)
         Me.Button1.TabIndex = 50
         Me.Button1.Text = "User"
         Me.Button1.UseVisualStyleBackColor = False
@@ -351,11 +351,11 @@ Partial Class Form_Menu
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Montserrat Black", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(266, 84)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(243, 88)
+        Me.Label2.Size = New System.Drawing.Size(258, 85)
         Me.Label2.TabIndex = 49
         Me.Label2.Text = "MENU"
         '

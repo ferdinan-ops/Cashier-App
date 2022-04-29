@@ -22,3 +22,45 @@ D:\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\W
 D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.exe
 D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.xml
 D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\Aplikasi Kasir Revisi Lagi.vbprojResolveAssemblyReference.cache
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_flash.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.form_register.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_databarang.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_inputbarang.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_laporandatabarang.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Lap_Harian.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Lap_Jual_Bulanan.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Lap_Tahunan.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_login.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Menu.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_penjulan.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_user.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+D:\Semua Projek VB.Net\ProjectTech\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\Aplikasi Kasir Revisi Lagi.vbproj.GenerateResource.Cache
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\Aplikasi Kasir Revisi Lagi.vbprojResolveAssemblyReference.cache
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_flash.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.form_register.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_databarang.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_inputbarang.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_laporandatabarang.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Lap_Harian.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Lap_Jual_Bulanan.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Lap_Tahunan.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_login.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Menu.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_penjulan.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_user.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.login.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\Aplikasi Kasir Revisi Lagi.vbproj.GenerateResource.Cache
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\bin\Debug\Guna.UI.dll
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.register.resources
