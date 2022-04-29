@@ -11,6 +11,22 @@ Public Class register
         Conn = New OleDbConnection(LokasiData)
         If Conn.State = ConnectionState.Closed Then Conn.Open()
     End Sub
+    Sub otomatis()
+        Call koneksi()
+        Dim hitung As Long
+        Dim urutan As String
+        Cmd = New OleDbCommand("select KodeUser from tbl_user order by KodeUser desc", Conn)
+        Rd = Cmd.ExecuteReader
+        Rd.Read()
+        If Not Rd.HasRows = True Then
+            urutan = "U" + "001"
+        Else
+            hitung = Microsoft.VisualBasic.Right(Rd.GetString(0), 3) + 1
+            urutan = "U" + Microsoft.VisualBasic.Right("000" & hitung, 3)
+        End If
+        kodeUser.Text = urutan
+        kodeUser.Enabled = True
+    End Sub
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         End
     End Sub
@@ -43,5 +59,9 @@ Public Class register
             End If
         End If
         Form_Menu.Show()
+    End Sub
+
+    Private Sub register_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Call otomatis()
     End Sub
 End Class

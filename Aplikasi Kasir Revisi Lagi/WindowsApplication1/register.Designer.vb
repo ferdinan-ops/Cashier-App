@@ -64,9 +64,9 @@ Partial Class register
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(180, 231)
+        Me.PictureBox1.Location = New System.Drawing.Point(150, 300)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(600, 617)
+        Me.PictureBox1.Size = New System.Drawing.Size(659, 480)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
@@ -308,6 +308,7 @@ Partial Class register
         Me.kodeUser.Size = New System.Drawing.Size(57, 13)
         Me.kodeUser.TabIndex = 32
         Me.kodeUser.Text = "Kode User"
+        Me.kodeUser.Visible = False
         '
         'register
         '
