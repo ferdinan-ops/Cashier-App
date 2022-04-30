@@ -47,4 +47,8 @@ Public Class login
         Me.Hide()
         register.Show()
     End Sub
+
+    Private Sub login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        txtPassword.UseSystemPasswordChar = True
+    End Sub
 End Class

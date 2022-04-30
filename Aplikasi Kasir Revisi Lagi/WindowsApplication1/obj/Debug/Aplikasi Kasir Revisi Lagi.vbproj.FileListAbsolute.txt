@@ -66,3 +66,5 @@ D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Ka
 D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.register.resources
 D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.dashboard.resources
 D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.input_user.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.input_barang.resources
+D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.laporan_barang.resources

@@ -13,10 +13,13 @@ Public Class dashboard
     End Sub
     'Dashboard
     Private Sub btndaftar_Click(sender As Object, e As EventArgs) Handles btnHome.Click
+        Call jlh_barang()
+        Call jlh_user()
         btnHome.BaseColor = Color.FromArgb(3, 172, 14)
         btnHome.ForeColor = Color.White
         btnHome.Image = WindowsApplication1.My.Resources.Resources.dashboard2
         user.Hide()
+        barang.Hide()
         home.Show()
 
         btnpengguna.BaseColor = Color.White
@@ -38,15 +41,15 @@ Public Class dashboard
     Sub MunculData()
         Cmd = New OleDbCommand("select * from tbl_barang", Conn)
         Rd = Cmd.ExecuteReader
-        dgvBarang.Rows.Clear()
+        dgvDashboard.Rows.Clear()
         Do While Rd.Read = True
-            dgvBarang.Rows.Add(Rd(0), Rd(1), Rd(2), Rd(3), Rd(4), Rd(5), Rd(6))
+            dgvDashboard.Rows.Add(Rd(0), Rd(1), Rd(2), Rd(3), Rd(4), Rd(5), Rd(6))
         Loop
     End Sub
     Sub jlh_barang()
         Dim jumlah_data As Integer = 0
-        For t As Integer = 0 To dgvBarang.RowCount - 1
-            jumlah_data = jumlah_data + Val(dgvBarang.Rows(t).Cells(6).Value)
+        For t As Integer = 0 To dgvDashboard.RowCount - 1
+            jumlah_data = jumlah_data + Val(dgvDashboard.Rows(t).Cells(6).Value)
         Next
         totalBarang.Text = jumlah_data
     End Sub
@@ -58,6 +61,7 @@ Public Class dashboard
         btnpengguna.ForeColor = Color.White
         btnpengguna.Image = WindowsApplication1.My.Resources.Resources.pengguna2
         home.Hide()
+        barang.Hide()
         user.Show()
 
         btnHome.BaseColor = Color.White
@@ -98,12 +102,21 @@ Public Class dashboard
             dgv_user.Rows.Add(Rd(0), Rd(1), Rd(2), Rd(3), Rd(4))
         Loop
     End Sub
+    Sub jlh_user()
+        Dim rowcount As Integer
+        rowcount = dgv_user.Rows.Count()
+        totalUser.Text = rowcount
+    End Sub
     'Akhir Pengguna
 
+    'Barang
     Private Sub btnBarang_Click(sender As Object, e As EventArgs) Handles btnBarang.Click
         btnBarang.BaseColor = Color.FromArgb(3, 172, 14)
         btnBarang.ForeColor = Color.White
         btnBarang.Image = WindowsApplication1.My.Resources.Resources.barang2
+        home.Hide()
+        user.Hide()
+        barang.Show()
 
         btnpengguna.BaseColor = Color.White
         btnpengguna.ForeColor = Color.FromArgb(3, 172, 14)
@@ -121,6 +134,34 @@ Public Class dashboard
         btnLapor.ForeColor = Color.FromArgb(3, 172, 14)
         btnLapor.Image = WindowsApplication1.My.Resources.Resources.laporan1
     End Sub
+    Sub tampil_barang()
+        Cmd = New OleDbCommand("select * from tbl_barang", Conn)
+        Rd = Cmd.ExecuteReader
+        dgv_barang.Rows.Clear()
+        Do While Rd.Read = True
+            dgv_barang.Rows.Add(Rd(0), Rd(1), Rd(2), Rd(3), Rd(4), Rd(5), Rd(6))
+        Loop
+    End Sub
+
+    Private Sub searchBarang_TextChanged(sender As Object, e As EventArgs) Handles searchBarang.TextChanged
+        Call konekdb()
+        Cmd = New OleDbCommand("select * from tbl_barang where NamaBarang Like '%" & searchBarang.Text & "%'", Conn)
+        Rd = Cmd.ExecuteReader
+        dgvDashboard.Rows.Clear()
+        Do While Rd.Read = True
+            dgvDashboard.Rows.Add(Rd(0), Rd(1), Rd(2), Rd(3), Rd(4), Rd(5), Rd(6))
+        Loop
+    End Sub
+
+    Private Sub crudBarang_Click(sender As Object, e As EventArgs) Handles crudBarang.Click
+        input_barang.ShowDialog()
+    End Sub
+
+    Private Sub laporBarang_Click(sender As Object, e As EventArgs) Handles laporBarang.Click
+        Me.Hide()
+        laporan_barang.Show()
+    End Sub
+    'Akhir Barang
 
     Private Sub btnJual_Click(sender As Object, e As EventArgs) Handles btnJual.Click
         btnJual.BaseColor = Color.FromArgb(3, 172, 14)
@@ -171,6 +212,7 @@ Public Class dashboard
         btnHome.ForeColor = Color.White
         btnHome.Image = WindowsApplication1.My.Resources.Resources.dashboard2
         user.Hide()
+        barang.Hide()
         home.Show()
 
         'Dashboard
@@ -181,6 +223,11 @@ Public Class dashboard
 
         'pengguna
         Call tampil_user()
+        Call jlh_user()
         'Akhir pengguna
+
+        'barang
+        Call tampil_barang()
+        'Akhir barang
     End Sub
 End Class
