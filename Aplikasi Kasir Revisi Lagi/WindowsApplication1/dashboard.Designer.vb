@@ -23,45 +23,241 @@ Partial Class dashboard
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(dashboard))
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.panelSide = New System.Windows.Forms.Panel()
+        Me.btnLogout = New Guna.UI.WinForms.GunaButton()
+        Me.btnLapor = New Guna.UI.WinForms.GunaButton()
+        Me.btnJual = New Guna.UI.WinForms.GunaButton()
+        Me.btnBarang = New Guna.UI.WinForms.GunaButton()
+        Me.btnpengguna = New Guna.UI.WinForms.GunaButton()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnHome = New Guna.UI.WinForms.GunaButton()
+        Me.panelHeader = New System.Windows.Forms.Panel()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.linkDaftar = New System.Windows.Forms.Label()
+        Me.home = New System.Windows.Forms.Panel()
+        Me.dgvBarang = New Guna.UI.WinForms.GunaDataGridView()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.GunaElipsePanel3 = New Guna.UI.WinForms.GunaElipsePanel()
+        Me.GunaTransfarantPictureBox3 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.GunaElipsePanel2 = New Guna.UI.WinForms.GunaElipsePanel()
+        Me.GunaTransfarantPictureBox2 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.GunaElipsePanel1 = New Guna.UI.WinForms.GunaElipsePanel()
+        Me.GunaTransfarantPictureBox1 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
+        Me.totalBarang = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txtLogin = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.btnMin = New System.Windows.Forms.PictureBox()
         Me.btnMax = New System.Windows.Forms.PictureBox()
         Me.btnClose = New System.Windows.Forms.PictureBox()
-        Me.btndaftar = New Guna.UI.WinForms.GunaButton()
-        Me.panelHeader = New System.Windows.Forms.Panel()
-        Me.GunaButton1 = New Guna.UI.WinForms.GunaButton()
-        Me.GunaButton2 = New Guna.UI.WinForms.GunaButton()
-        Me.GunaButton3 = New Guna.UI.WinForms.GunaButton()
-        Me.GunaButton4 = New Guna.UI.WinForms.GunaButton()
-        Me.GunaButton5 = New Guna.UI.WinForms.GunaButton()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.linkDaftar = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.txtLogin = New System.Windows.Forms.Label()
+        Me.user = New System.Windows.Forms.Panel()
+        Me.dgv_user = New Guna.UI.WinForms.GunaDataGridView()
+        Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.GunaTransfarantPictureBox4 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
+        Me.searchUser = New Guna.UI.WinForms.GunaTextBox()
+        Me.crudUser = New Guna.UI.WinForms.GunaButton()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.panelSide.SuspendLayout()
+        Me.panelHeader.SuspendLayout()
+        Me.home.SuspendLayout()
+        CType(Me.dgvBarang, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GunaElipsePanel3.SuspendLayout()
+        CType(Me.GunaTransfarantPictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GunaElipsePanel2.SuspendLayout()
+        CType(Me.GunaTransfarantPictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GunaElipsePanel1.SuspendLayout()
+        CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnMin, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnMax, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnClose, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel1.SuspendLayout()
+        Me.user.SuspendLayout()
+        CType(Me.dgv_user, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GunaTransfarantPictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'panelSide
         '
         Me.panelSide.BackColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(246, Byte), Integer), CType(CType(246, Byte), Integer))
-        Me.panelSide.Controls.Add(Me.GunaButton4)
-        Me.panelSide.Controls.Add(Me.GunaButton5)
-        Me.panelSide.Controls.Add(Me.GunaButton2)
-        Me.panelSide.Controls.Add(Me.GunaButton3)
-        Me.panelSide.Controls.Add(Me.GunaButton1)
+        Me.panelSide.Controls.Add(Me.btnLogout)
+        Me.panelSide.Controls.Add(Me.btnLapor)
+        Me.panelSide.Controls.Add(Me.btnJual)
+        Me.panelSide.Controls.Add(Me.btnBarang)
+        Me.panelSide.Controls.Add(Me.btnpengguna)
         Me.panelSide.Controls.Add(Me.Label1)
-        Me.panelSide.Controls.Add(Me.btndaftar)
+        Me.panelSide.Controls.Add(Me.btnHome)
         Me.panelSide.Dock = System.Windows.Forms.DockStyle.Left
         Me.panelSide.Location = New System.Drawing.Point(0, 0)
         Me.panelSide.Name = "panelSide"
         Me.panelSide.Size = New System.Drawing.Size(450, 1080)
         Me.panelSide.TabIndex = 33
+        '
+        'btnLogout
+        '
+        Me.btnLogout.Animated = True
+        Me.btnLogout.AnimationHoverSpeed = 0.07!
+        Me.btnLogout.AnimationSpeed = 0.03!
+        Me.btnLogout.BackColor = System.Drawing.Color.Transparent
+        Me.btnLogout.BaseColor = System.Drawing.Color.White
+        Me.btnLogout.BorderColor = System.Drawing.Color.White
+        Me.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnLogout.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnLogout.FocusedColor = System.Drawing.Color.Empty
+        Me.btnLogout.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogout.ForeColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(4, Byte), Integer))
+        Me.btnLogout.Image = CType(resources.GetObject("btnLogout.Image"), System.Drawing.Image)
+        Me.btnLogout.ImageOffsetX = 15
+        Me.btnLogout.ImageSize = New System.Drawing.Size(30, 30)
+        Me.btnLogout.Location = New System.Drawing.Point(54, 749)
+        Me.btnLogout.Name = "btnLogout"
+        Me.btnLogout.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(4, Byte), Integer))
+        Me.btnLogout.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(4, Byte), Integer))
+        Me.btnLogout.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnLogout.OnHoverImage = CType(resources.GetObject("btnLogout.OnHoverImage"), System.Drawing.Image)
+        Me.btnLogout.OnPressedColor = System.Drawing.Color.Black
+        Me.btnLogout.Radius = 10
+        Me.btnLogout.Size = New System.Drawing.Size(300, 70)
+        Me.btnLogout.TabIndex = 42
+        Me.btnLogout.Text = "Logout"
+        Me.btnLogout.TextOffsetX = 20
+        '
+        'btnLapor
+        '
+        Me.btnLapor.Animated = True
+        Me.btnLapor.AnimationHoverSpeed = 0.07!
+        Me.btnLapor.AnimationSpeed = 0.03!
+        Me.btnLapor.BackColor = System.Drawing.Color.Transparent
+        Me.btnLapor.BaseColor = System.Drawing.Color.White
+        Me.btnLapor.BorderColor = System.Drawing.Color.White
+        Me.btnLapor.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnLapor.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnLapor.FocusedColor = System.Drawing.Color.Empty
+        Me.btnLapor.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLapor.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnLapor.Image = CType(resources.GetObject("btnLapor.Image"), System.Drawing.Image)
+        Me.btnLapor.ImageOffsetX = 15
+        Me.btnLapor.ImageSize = New System.Drawing.Size(30, 30)
+        Me.btnLapor.Location = New System.Drawing.Point(54, 641)
+        Me.btnLapor.Name = "btnLapor"
+        Me.btnLapor.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnLapor.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnLapor.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnLapor.OnHoverImage = CType(resources.GetObject("btnLapor.OnHoverImage"), System.Drawing.Image)
+        Me.btnLapor.OnPressedColor = System.Drawing.Color.Black
+        Me.btnLapor.Radius = 10
+        Me.btnLapor.Size = New System.Drawing.Size(300, 70)
+        Me.btnLapor.TabIndex = 41
+        Me.btnLapor.Text = "Laporan"
+        Me.btnLapor.TextOffsetX = 20
+        '
+        'btnJual
+        '
+        Me.btnJual.Animated = True
+        Me.btnJual.AnimationHoverSpeed = 0.07!
+        Me.btnJual.AnimationSpeed = 0.03!
+        Me.btnJual.BackColor = System.Drawing.Color.Transparent
+        Me.btnJual.BaseColor = System.Drawing.Color.White
+        Me.btnJual.BorderColor = System.Drawing.Color.White
+        Me.btnJual.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnJual.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnJual.FocusedColor = System.Drawing.Color.Empty
+        Me.btnJual.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnJual.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnJual.Image = CType(resources.GetObject("btnJual.Image"), System.Drawing.Image)
+        Me.btnJual.ImageOffsetX = 15
+        Me.btnJual.ImageSize = New System.Drawing.Size(30, 30)
+        Me.btnJual.Location = New System.Drawing.Point(54, 533)
+        Me.btnJual.Name = "btnJual"
+        Me.btnJual.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnJual.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnJual.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnJual.OnHoverImage = CType(resources.GetObject("btnJual.OnHoverImage"), System.Drawing.Image)
+        Me.btnJual.OnPressedColor = System.Drawing.Color.Black
+        Me.btnJual.Radius = 10
+        Me.btnJual.Size = New System.Drawing.Size(300, 70)
+        Me.btnJual.TabIndex = 40
+        Me.btnJual.Text = "Penjualan"
+        Me.btnJual.TextOffsetX = 20
+        '
+        'btnBarang
+        '
+        Me.btnBarang.Animated = True
+        Me.btnBarang.AnimationHoverSpeed = 0.07!
+        Me.btnBarang.AnimationSpeed = 0.03!
+        Me.btnBarang.BackColor = System.Drawing.Color.Transparent
+        Me.btnBarang.BaseColor = System.Drawing.Color.White
+        Me.btnBarang.BorderColor = System.Drawing.Color.White
+        Me.btnBarang.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnBarang.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnBarang.FocusedColor = System.Drawing.Color.Empty
+        Me.btnBarang.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBarang.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnBarang.Image = CType(resources.GetObject("btnBarang.Image"), System.Drawing.Image)
+        Me.btnBarang.ImageOffsetX = 15
+        Me.btnBarang.ImageSize = New System.Drawing.Size(30, 30)
+        Me.btnBarang.Location = New System.Drawing.Point(54, 425)
+        Me.btnBarang.Name = "btnBarang"
+        Me.btnBarang.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnBarang.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnBarang.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnBarang.OnHoverImage = CType(resources.GetObject("btnBarang.OnHoverImage"), System.Drawing.Image)
+        Me.btnBarang.OnPressedColor = System.Drawing.Color.Black
+        Me.btnBarang.Radius = 10
+        Me.btnBarang.Size = New System.Drawing.Size(300, 70)
+        Me.btnBarang.TabIndex = 39
+        Me.btnBarang.Text = "Barang"
+        Me.btnBarang.TextOffsetX = 20
+        '
+        'btnpengguna
+        '
+        Me.btnpengguna.Animated = True
+        Me.btnpengguna.AnimationHoverSpeed = 0.07!
+        Me.btnpengguna.AnimationSpeed = 0.03!
+        Me.btnpengguna.BackColor = System.Drawing.Color.Transparent
+        Me.btnpengguna.BaseColor = System.Drawing.Color.White
+        Me.btnpengguna.BorderColor = System.Drawing.Color.White
+        Me.btnpengguna.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnpengguna.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnpengguna.FocusedColor = System.Drawing.Color.Empty
+        Me.btnpengguna.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnpengguna.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnpengguna.Image = CType(resources.GetObject("btnpengguna.Image"), System.Drawing.Image)
+        Me.btnpengguna.ImageOffsetX = 15
+        Me.btnpengguna.ImageSize = New System.Drawing.Size(30, 30)
+        Me.btnpengguna.Location = New System.Drawing.Point(54, 317)
+        Me.btnpengguna.Name = "btnpengguna"
+        Me.btnpengguna.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnpengguna.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnpengguna.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnpengguna.OnHoverImage = CType(resources.GetObject("btnpengguna.OnHoverImage"), System.Drawing.Image)
+        Me.btnpengguna.OnPressedColor = System.Drawing.Color.Black
+        Me.btnpengguna.Radius = 10
+        Me.btnpengguna.Size = New System.Drawing.Size(300, 70)
+        Me.btnpengguna.TabIndex = 38
+        Me.btnpengguna.Text = "Pengguna"
+        Me.btnpengguna.TextOffsetX = 20
         '
         'Label1
         '
@@ -73,6 +269,362 @@ Partial Class dashboard
         Me.Label1.Size = New System.Drawing.Size(153, 76)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "LOGO"
+        '
+        'btnHome
+        '
+        Me.btnHome.Animated = True
+        Me.btnHome.AnimationHoverSpeed = 0.07!
+        Me.btnHome.AnimationSpeed = 0.03!
+        Me.btnHome.BackColor = System.Drawing.Color.Transparent
+        Me.btnHome.BaseColor = System.Drawing.Color.White
+        Me.btnHome.BorderColor = System.Drawing.Color.White
+        Me.btnHome.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnHome.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnHome.FocusedColor = System.Drawing.Color.Empty
+        Me.btnHome.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnHome.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnHome.Image = CType(resources.GetObject("btnHome.Image"), System.Drawing.Image)
+        Me.btnHome.ImageOffsetX = 15
+        Me.btnHome.ImageSize = New System.Drawing.Size(30, 30)
+        Me.btnHome.Location = New System.Drawing.Point(54, 209)
+        Me.btnHome.Name = "btnHome"
+        Me.btnHome.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnHome.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnHome.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnHome.OnHoverImage = Global.WindowsApplication1.My.Resources.Resources.dashboard2
+        Me.btnHome.OnPressedColor = System.Drawing.Color.Black
+        Me.btnHome.Radius = 10
+        Me.btnHome.Size = New System.Drawing.Size(300, 70)
+        Me.btnHome.TabIndex = 37
+        Me.btnHome.Text = "Dashboard"
+        Me.btnHome.TextOffsetX = 20
+        '
+        'panelHeader
+        '
+        Me.panelHeader.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(194, Byte), Integer))
+        Me.panelHeader.Controls.Add(Me.Label11)
+        Me.panelHeader.Dock = System.Windows.Forms.DockStyle.Top
+        Me.panelHeader.Location = New System.Drawing.Point(450, 0)
+        Me.panelHeader.Name = "panelHeader"
+        Me.panelHeader.Size = New System.Drawing.Size(1470, 60)
+        Me.panelHeader.TabIndex = 51
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Poppins", 13.74545!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.Black
+        Me.Label11.Location = New System.Drawing.Point(703, 15)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(107, 37)
+        Me.Label11.TabIndex = 44
+        Me.Label11.Text = "12.45 PM"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Poppins", 11.78182!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.Black
+        Me.Label6.Location = New System.Drawing.Point(1308, 884)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(274, 34)
+        Me.Label6.TabIndex = 40
+        Me.Label6.Text = "Already Have an Account?"
+        '
+        'linkDaftar
+        '
+        Me.linkDaftar.AutoSize = True
+        Me.linkDaftar.BackColor = System.Drawing.Color.Transparent
+        Me.linkDaftar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.linkDaftar.Font = New System.Drawing.Font("Poppins", 11.78182!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.linkDaftar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.linkDaftar.Location = New System.Drawing.Point(1573, 884)
+        Me.linkDaftar.Name = "linkDaftar"
+        Me.linkDaftar.Size = New System.Drawing.Size(68, 34)
+        Me.linkDaftar.TabIndex = 41
+        Me.linkDaftar.Text = "Login" & Global.Microsoft.VisualBasic.ChrW(13)
+        '
+        'home
+        '
+        Me.home.Controls.Add(Me.dgvBarang)
+        Me.home.Controls.Add(Me.Label10)
+        Me.home.Controls.Add(Me.GunaElipsePanel3)
+        Me.home.Controls.Add(Me.GunaElipsePanel2)
+        Me.home.Controls.Add(Me.GunaElipsePanel1)
+        Me.home.Controls.Add(Me.txtLogin)
+        Me.home.Controls.Add(Me.Label3)
+        Me.home.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.home.Location = New System.Drawing.Point(450, 60)
+        Me.home.Name = "home"
+        Me.home.Size = New System.Drawing.Size(1470, 1020)
+        Me.home.TabIndex = 52
+        '
+        'dgvBarang
+        '
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.White
+        Me.dgvBarang.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
+        Me.dgvBarang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.dgvBarang.BackgroundColor = System.Drawing.Color.White
+        Me.dgvBarang.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.dgvBarang.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvBarang.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
+        Me.dgvBarang.ColumnHeadersHeight = 50
+        Me.dgvBarang.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7})
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvBarang.DefaultCellStyle = DataGridViewCellStyle9
+        Me.dgvBarang.EnableHeadersVisualStyles = False
+        Me.dgvBarang.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.dgvBarang.Location = New System.Drawing.Point(66, 572)
+        Me.dgvBarang.Name = "dgvBarang"
+        Me.dgvBarang.RowHeadersVisible = False
+        Me.dgvBarang.RowTemplate.Height = 30
+        Me.dgvBarang.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgvBarang.Size = New System.Drawing.Size(1351, 387)
+        Me.dgvBarang.TabIndex = 76
+        Me.dgvBarang.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna
+        Me.dgvBarang.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
+        Me.dgvBarang.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        Me.dgvBarang.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty
+        Me.dgvBarang.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty
+        Me.dgvBarang.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty
+        Me.dgvBarang.ThemeStyle.BackColor = System.Drawing.Color.White
+        Me.dgvBarang.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.dgvBarang.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.dgvBarang.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
+        Me.dgvBarang.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dgvBarang.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
+        Me.dgvBarang.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.dgvBarang.ThemeStyle.HeaderStyle.Height = 50
+        Me.dgvBarang.ThemeStyle.ReadOnly = False
+        Me.dgvBarang.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
+        Me.dgvBarang.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.[Single]
+        Me.dgvBarang.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dgvBarang.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black
+        Me.dgvBarang.ThemeStyle.RowsStyle.Height = 30
+        Me.dgvBarang.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.White
+        Me.dgvBarang.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "Kode Barang"
+        Me.Column1.Name = "Column1"
+        '
+        'Column2
+        '
+        Me.Column2.HeaderText = "Nama Baran"
+        Me.Column2.Name = "Column2"
+        '
+        'Column3
+        '
+        Me.Column3.HeaderText = "Jenis Barang"
+        Me.Column3.Name = "Column3"
+        '
+        'Column4
+        '
+        Me.Column4.HeaderText = "Satuan Barang"
+        Me.Column4.Name = "Column4"
+        '
+        'Column5
+        '
+        Me.Column5.HeaderText = "Harga Beli"
+        Me.Column5.Name = "Column5"
+        '
+        'Column6
+        '
+        Me.Column6.HeaderText = "Harga Jual"
+        Me.Column6.Name = "Column6"
+        '
+        'Column7
+        '
+        Me.Column7.HeaderText = "Stok Barang"
+        Me.Column7.Name = "Column7"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Poppins", 18.32727!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.Black
+        Me.Label10.Location = New System.Drawing.Point(57, 493)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(214, 50)
+        Me.Label10.TabIndex = 43
+        Me.Label10.Text = "Tabel Barang"
+        '
+        'GunaElipsePanel3
+        '
+        Me.GunaElipsePanel3.BackColor = System.Drawing.Color.Transparent
+        Me.GunaElipsePanel3.BaseColor = System.Drawing.Color.FromArgb(CType(CType(165, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.GunaElipsePanel3.Controls.Add(Me.GunaTransfarantPictureBox3)
+        Me.GunaElipsePanel3.Controls.Add(Me.Label8)
+        Me.GunaElipsePanel3.Controls.Add(Me.Label9)
+        Me.GunaElipsePanel3.Location = New System.Drawing.Point(1056, 227)
+        Me.GunaElipsePanel3.Name = "GunaElipsePanel3"
+        Me.GunaElipsePanel3.Radius = 10
+        Me.GunaElipsePanel3.Size = New System.Drawing.Size(364, 211)
+        Me.GunaElipsePanel3.TabIndex = 42
+        '
+        'GunaTransfarantPictureBox3
+        '
+        Me.GunaTransfarantPictureBox3.BaseColor = System.Drawing.Color.Black
+        Me.GunaTransfarantPictureBox3.Image = CType(resources.GetObject("GunaTransfarantPictureBox3.Image"), System.Drawing.Image)
+        Me.GunaTransfarantPictureBox3.Location = New System.Drawing.Point(214, 75)
+        Me.GunaTransfarantPictureBox3.Name = "GunaTransfarantPictureBox3"
+        Me.GunaTransfarantPictureBox3.Size = New System.Drawing.Size(100, 100)
+        Me.GunaTransfarantPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.GunaTransfarantPictureBox3.TabIndex = 41
+        Me.GunaTransfarantPictureBox3.TabStop = False
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Poppins SemiBold", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.White
+        Me.Label8.Location = New System.Drawing.Point(51, 75)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(92, 96)
+        Me.Label8.TabIndex = 40
+        Me.Label8.Text = "12"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label9
+        '
+        Me.Label9.Font = New System.Drawing.Font("Poppins SemiBold", 13.74545!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.White
+        Me.Label9.Location = New System.Drawing.Point(3, 11)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(358, 50)
+        Me.Label9.TabIndex = 39
+        Me.Label9.Text = "Total Transaksi"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'GunaElipsePanel2
+        '
+        Me.GunaElipsePanel2.BackColor = System.Drawing.Color.Transparent
+        Me.GunaElipsePanel2.BaseColor = System.Drawing.Color.FromArgb(CType(CType(227, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.GunaElipsePanel2.Controls.Add(Me.GunaTransfarantPictureBox2)
+        Me.GunaElipsePanel2.Controls.Add(Me.Label5)
+        Me.GunaElipsePanel2.Controls.Add(Me.Label7)
+        Me.GunaElipsePanel2.Location = New System.Drawing.Point(553, 227)
+        Me.GunaElipsePanel2.Name = "GunaElipsePanel2"
+        Me.GunaElipsePanel2.Radius = 10
+        Me.GunaElipsePanel2.Size = New System.Drawing.Size(364, 211)
+        Me.GunaElipsePanel2.TabIndex = 39
+        '
+        'GunaTransfarantPictureBox2
+        '
+        Me.GunaTransfarantPictureBox2.BaseColor = System.Drawing.Color.Black
+        Me.GunaTransfarantPictureBox2.Image = CType(resources.GetObject("GunaTransfarantPictureBox2.Image"), System.Drawing.Image)
+        Me.GunaTransfarantPictureBox2.Location = New System.Drawing.Point(214, 75)
+        Me.GunaTransfarantPictureBox2.Name = "GunaTransfarantPictureBox2"
+        Me.GunaTransfarantPictureBox2.Size = New System.Drawing.Size(100, 100)
+        Me.GunaTransfarantPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.GunaTransfarantPictureBox2.TabIndex = 41
+        Me.GunaTransfarantPictureBox2.TabStop = False
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Poppins SemiBold", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.White
+        Me.Label5.Location = New System.Drawing.Point(51, 75)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(92, 96)
+        Me.Label5.TabIndex = 40
+        Me.Label5.Text = "12"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label7
+        '
+        Me.Label7.Font = New System.Drawing.Font("Poppins SemiBold", 13.74545!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.White
+        Me.Label7.Location = New System.Drawing.Point(3, 11)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(358, 50)
+        Me.Label7.TabIndex = 39
+        Me.Label7.Text = "Total Pengguna"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'GunaElipsePanel1
+        '
+        Me.GunaElipsePanel1.BackColor = System.Drawing.Color.Transparent
+        Me.GunaElipsePanel1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(176, Byte), Integer), CType(CType(171, Byte), Integer), CType(CType(203, Byte), Integer))
+        Me.GunaElipsePanel1.Controls.Add(Me.GunaTransfarantPictureBox1)
+        Me.GunaElipsePanel1.Controls.Add(Me.totalBarang)
+        Me.GunaElipsePanel1.Controls.Add(Me.Label2)
+        Me.GunaElipsePanel1.Location = New System.Drawing.Point(67, 227)
+        Me.GunaElipsePanel1.Name = "GunaElipsePanel1"
+        Me.GunaElipsePanel1.Radius = 10
+        Me.GunaElipsePanel1.Size = New System.Drawing.Size(364, 211)
+        Me.GunaElipsePanel1.TabIndex = 38
+        '
+        'GunaTransfarantPictureBox1
+        '
+        Me.GunaTransfarantPictureBox1.BaseColor = System.Drawing.Color.Black
+        Me.GunaTransfarantPictureBox1.Image = CType(resources.GetObject("GunaTransfarantPictureBox1.Image"), System.Drawing.Image)
+        Me.GunaTransfarantPictureBox1.Location = New System.Drawing.Point(214, 75)
+        Me.GunaTransfarantPictureBox1.Name = "GunaTransfarantPictureBox1"
+        Me.GunaTransfarantPictureBox1.Size = New System.Drawing.Size(100, 100)
+        Me.GunaTransfarantPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.GunaTransfarantPictureBox1.TabIndex = 41
+        Me.GunaTransfarantPictureBox1.TabStop = False
+        '
+        'totalBarang
+        '
+        Me.totalBarang.AutoSize = True
+        Me.totalBarang.Font = New System.Drawing.Font("Poppins SemiBold", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalBarang.ForeColor = System.Drawing.Color.White
+        Me.totalBarang.Location = New System.Drawing.Point(51, 75)
+        Me.totalBarang.Name = "totalBarang"
+        Me.totalBarang.Size = New System.Drawing.Size(92, 96)
+        Me.totalBarang.TabIndex = 40
+        Me.totalBarang.Text = "12"
+        Me.totalBarang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label2
+        '
+        Me.Label2.Font = New System.Drawing.Font("Poppins SemiBold", 13.74545!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(3, 11)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(358, 50)
+        Me.Label2.TabIndex = 39
+        Me.Label2.Text = "Total Barang"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'txtLogin
+        '
+        Me.txtLogin.AutoSize = True
+        Me.txtLogin.Font = New System.Drawing.Font("Poppins", 18.32727!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLogin.ForeColor = System.Drawing.Color.Black
+        Me.txtLogin.Location = New System.Drawing.Point(58, 129)
+        Me.txtLogin.Name = "txtLogin"
+        Me.txtLogin.Size = New System.Drawing.Size(557, 50)
+        Me.txtLogin.TabIndex = 37
+        Me.txtLogin.Text = "Ferdinan Imanuel Tumanggor / Admin"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Poppins", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(50, 49)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(516, 96)
+        Me.Label3.TabIndex = 36
+        Me.Label3.Text = "Selamat Datang,"
         '
         'btnMin
         '
@@ -107,238 +659,184 @@ Partial Class dashboard
         Me.btnClose.TabIndex = 42
         Me.btnClose.TabStop = False
         '
-        'btndaftar
+        'user
         '
-        Me.btndaftar.Animated = True
-        Me.btndaftar.AnimationHoverSpeed = 0.07!
-        Me.btndaftar.AnimationSpeed = 0.03!
-        Me.btndaftar.BackColor = System.Drawing.Color.Transparent
-        Me.btndaftar.BaseColor = System.Drawing.Color.White
-        Me.btndaftar.BorderColor = System.Drawing.Color.White
-        Me.btndaftar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btndaftar.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.btndaftar.FocusedColor = System.Drawing.Color.Empty
-        Me.btndaftar.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btndaftar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btndaftar.Image = CType(resources.GetObject("btndaftar.Image"), System.Drawing.Image)
-        Me.btndaftar.ImageSize = New System.Drawing.Size(30, 30)
-        Me.btndaftar.Location = New System.Drawing.Point(54, 209)
-        Me.btndaftar.Name = "btndaftar"
-        Me.btndaftar.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btndaftar.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btndaftar.OnHoverForeColor = System.Drawing.Color.White
-        Me.btndaftar.OnHoverImage = CType(resources.GetObject("btndaftar.OnHoverImage"), System.Drawing.Image)
-        Me.btndaftar.OnPressedColor = System.Drawing.Color.Black
-        Me.btndaftar.Radius = 10
-        Me.btndaftar.Size = New System.Drawing.Size(300, 70)
-        Me.btndaftar.TabIndex = 37
-        Me.btndaftar.Text = "Dashboard"
-        Me.btndaftar.TextOffsetX = 20
+        Me.user.Controls.Add(Me.dgv_user)
+        Me.user.Controls.Add(Me.Label13)
+        Me.user.Controls.Add(Me.GunaTransfarantPictureBox4)
+        Me.user.Controls.Add(Me.searchUser)
+        Me.user.Controls.Add(Me.crudUser)
+        Me.user.Controls.Add(Me.Label12)
+        Me.user.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.user.Location = New System.Drawing.Point(450, 60)
+        Me.user.Name = "user"
+        Me.user.Size = New System.Drawing.Size(1470, 1020)
+        Me.user.TabIndex = 77
         '
-        'panelHeader
+        'dgv_user
         '
-        Me.panelHeader.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(194, Byte), Integer))
-        Me.panelHeader.Dock = System.Windows.Forms.DockStyle.Top
-        Me.panelHeader.Location = New System.Drawing.Point(450, 0)
-        Me.panelHeader.Name = "panelHeader"
-        Me.panelHeader.Size = New System.Drawing.Size(1470, 60)
-        Me.panelHeader.TabIndex = 51
+        DataGridViewCellStyle10.BackColor = System.Drawing.Color.White
+        Me.dgv_user.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle10
+        Me.dgv_user.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.dgv_user.BackgroundColor = System.Drawing.Color.White
+        Me.dgv_user.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.dgv_user.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        DataGridViewCellStyle11.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgv_user.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle11
+        Me.dgv_user.ColumnHeadersHeight = 50
+        Me.dgv_user.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column8, Me.Column9, Me.Column10, Me.Column11, Me.Column12})
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle12.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle12.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgv_user.DefaultCellStyle = DataGridViewCellStyle12
+        Me.dgv_user.EnableHeadersVisualStyles = False
+        Me.dgv_user.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.dgv_user.Location = New System.Drawing.Point(56, 408)
+        Me.dgv_user.Name = "dgv_user"
+        Me.dgv_user.RowHeadersVisible = False
+        Me.dgv_user.RowTemplate.Height = 30
+        Me.dgv_user.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgv_user.Size = New System.Drawing.Size(1351, 551)
+        Me.dgv_user.TabIndex = 77
+        Me.dgv_user.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna
+        Me.dgv_user.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
+        Me.dgv_user.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        Me.dgv_user.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty
+        Me.dgv_user.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty
+        Me.dgv_user.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty
+        Me.dgv_user.ThemeStyle.BackColor = System.Drawing.Color.White
+        Me.dgv_user.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.dgv_user.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.dgv_user.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
+        Me.dgv_user.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dgv_user.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
+        Me.dgv_user.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.dgv_user.ThemeStyle.HeaderStyle.Height = 50
+        Me.dgv_user.ThemeStyle.ReadOnly = False
+        Me.dgv_user.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
+        Me.dgv_user.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.[Single]
+        Me.dgv_user.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dgv_user.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black
+        Me.dgv_user.ThemeStyle.RowsStyle.Height = 30
+        Me.dgv_user.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.White
+        Me.dgv_user.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         '
-        'GunaButton1
+        'Column8
         '
-        Me.GunaButton1.Animated = True
-        Me.GunaButton1.AnimationHoverSpeed = 0.07!
-        Me.GunaButton1.AnimationSpeed = 0.03!
-        Me.GunaButton1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton1.BaseColor = System.Drawing.Color.White
-        Me.GunaButton1.BorderColor = System.Drawing.Color.White
-        Me.GunaButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.GunaButton1.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton1.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton1.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaButton1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.GunaButton1.Image = CType(resources.GetObject("GunaButton1.Image"), System.Drawing.Image)
-        Me.GunaButton1.ImageSize = New System.Drawing.Size(30, 30)
-        Me.GunaButton1.Location = New System.Drawing.Point(54, 317)
-        Me.GunaButton1.Name = "GunaButton1"
-        Me.GunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.GunaButton1.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.GunaButton1.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton1.OnHoverImage = CType(resources.GetObject("GunaButton1.OnHoverImage"), System.Drawing.Image)
-        Me.GunaButton1.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton1.Radius = 10
-        Me.GunaButton1.Size = New System.Drawing.Size(300, 70)
-        Me.GunaButton1.TabIndex = 38
-        Me.GunaButton1.Text = "Pengguna"
-        Me.GunaButton1.TextOffsetX = 20
+        Me.Column8.HeaderText = "Kode User"
+        Me.Column8.Name = "Column8"
         '
-        'GunaButton2
+        'Column9
         '
-        Me.GunaButton2.Animated = True
-        Me.GunaButton2.AnimationHoverSpeed = 0.07!
-        Me.GunaButton2.AnimationSpeed = 0.03!
-        Me.GunaButton2.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton2.BaseColor = System.Drawing.Color.White
-        Me.GunaButton2.BorderColor = System.Drawing.Color.White
-        Me.GunaButton2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.GunaButton2.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton2.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton2.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaButton2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.GunaButton2.Image = CType(resources.GetObject("GunaButton2.Image"), System.Drawing.Image)
-        Me.GunaButton2.ImageSize = New System.Drawing.Size(30, 30)
-        Me.GunaButton2.Location = New System.Drawing.Point(54, 533)
-        Me.GunaButton2.Name = "GunaButton2"
-        Me.GunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.GunaButton2.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.GunaButton2.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton2.OnHoverImage = CType(resources.GetObject("GunaButton2.OnHoverImage"), System.Drawing.Image)
-        Me.GunaButton2.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton2.Radius = 10
-        Me.GunaButton2.Size = New System.Drawing.Size(300, 70)
-        Me.GunaButton2.TabIndex = 40
-        Me.GunaButton2.Text = "Penjualan"
-        Me.GunaButton2.TextOffsetX = 20
+        Me.Column9.HeaderText = "Nama"
+        Me.Column9.Name = "Column9"
         '
-        'GunaButton3
+        'Column10
         '
-        Me.GunaButton3.Animated = True
-        Me.GunaButton3.AnimationHoverSpeed = 0.07!
-        Me.GunaButton3.AnimationSpeed = 0.03!
-        Me.GunaButton3.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton3.BaseColor = System.Drawing.Color.White
-        Me.GunaButton3.BorderColor = System.Drawing.Color.White
-        Me.GunaButton3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.GunaButton3.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton3.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton3.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaButton3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.GunaButton3.Image = CType(resources.GetObject("GunaButton3.Image"), System.Drawing.Image)
-        Me.GunaButton3.ImageSize = New System.Drawing.Size(30, 30)
-        Me.GunaButton3.Location = New System.Drawing.Point(54, 425)
-        Me.GunaButton3.Name = "GunaButton3"
-        Me.GunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.GunaButton3.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.GunaButton3.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton3.OnHoverImage = CType(resources.GetObject("GunaButton3.OnHoverImage"), System.Drawing.Image)
-        Me.GunaButton3.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton3.Radius = 10
-        Me.GunaButton3.Size = New System.Drawing.Size(300, 70)
-        Me.GunaButton3.TabIndex = 39
-        Me.GunaButton3.Text = "Barang"
-        Me.GunaButton3.TextOffsetX = 20
+        Me.Column10.HeaderText = "Username"
+        Me.Column10.Name = "Column10"
         '
-        'GunaButton4
+        'Column11
         '
-        Me.GunaButton4.Animated = True
-        Me.GunaButton4.AnimationHoverSpeed = 0.07!
-        Me.GunaButton4.AnimationSpeed = 0.03!
-        Me.GunaButton4.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton4.BaseColor = System.Drawing.Color.White
-        Me.GunaButton4.BorderColor = System.Drawing.Color.White
-        Me.GunaButton4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.GunaButton4.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton4.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton4.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaButton4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(4, Byte), Integer))
-        Me.GunaButton4.Image = CType(resources.GetObject("GunaButton4.Image"), System.Drawing.Image)
-        Me.GunaButton4.ImageSize = New System.Drawing.Size(30, 30)
-        Me.GunaButton4.Location = New System.Drawing.Point(54, 749)
-        Me.GunaButton4.Name = "GunaButton4"
-        Me.GunaButton4.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(4, Byte), Integer))
-        Me.GunaButton4.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(4, Byte), Integer))
-        Me.GunaButton4.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton4.OnHoverImage = CType(resources.GetObject("GunaButton4.OnHoverImage"), System.Drawing.Image)
-        Me.GunaButton4.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton4.Radius = 10
-        Me.GunaButton4.Size = New System.Drawing.Size(300, 70)
-        Me.GunaButton4.TabIndex = 42
-        Me.GunaButton4.Text = "Logout"
-        Me.GunaButton4.TextOffsetX = 20
+        Me.Column11.HeaderText = "Password"
+        Me.Column11.Name = "Column11"
         '
-        'GunaButton5
+        'Column12
         '
-        Me.GunaButton5.Animated = True
-        Me.GunaButton5.AnimationHoverSpeed = 0.07!
-        Me.GunaButton5.AnimationSpeed = 0.03!
-        Me.GunaButton5.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton5.BaseColor = System.Drawing.Color.White
-        Me.GunaButton5.BorderColor = System.Drawing.Color.White
-        Me.GunaButton5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.GunaButton5.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton5.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton5.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaButton5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.GunaButton5.Image = CType(resources.GetObject("GunaButton5.Image"), System.Drawing.Image)
-        Me.GunaButton5.ImageSize = New System.Drawing.Size(30, 30)
-        Me.GunaButton5.Location = New System.Drawing.Point(54, 641)
-        Me.GunaButton5.Name = "GunaButton5"
-        Me.GunaButton5.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.GunaButton5.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.GunaButton5.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton5.OnHoverImage = CType(resources.GetObject("GunaButton5.OnHoverImage"), System.Drawing.Image)
-        Me.GunaButton5.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton5.Radius = 10
-        Me.GunaButton5.Size = New System.Drawing.Size(300, 70)
-        Me.GunaButton5.TabIndex = 41
-        Me.GunaButton5.Text = "Laporan"
-        Me.GunaButton5.TextOffsetX = 20
+        Me.Column12.HeaderText = "Level"
+        Me.Column12.Name = "Column12"
         '
-        'Label6
+        'Label13
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Poppins", 11.78182!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(1308, 884)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(274, 34)
-        Me.Label6.TabIndex = 40
-        Me.Label6.Text = "Already Have an Account?"
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Poppins", 18.32727!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.ForeColor = System.Drawing.Color.Black
+        Me.Label13.Location = New System.Drawing.Point(47, 321)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(256, 50)
+        Me.Label13.TabIndex = 44
+        Me.Label13.Text = "Tabel Pengguna"
         '
-        'linkDaftar
+        'GunaTransfarantPictureBox4
         '
-        Me.linkDaftar.AutoSize = True
-        Me.linkDaftar.BackColor = System.Drawing.Color.Transparent
-        Me.linkDaftar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.linkDaftar.Font = New System.Drawing.Font("Poppins", 11.78182!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.linkDaftar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.linkDaftar.Location = New System.Drawing.Point(1573, 884)
-        Me.linkDaftar.Name = "linkDaftar"
-        Me.linkDaftar.Size = New System.Drawing.Size(68, 34)
-        Me.linkDaftar.TabIndex = 41
-        Me.linkDaftar.Text = "Login" & Global.Microsoft.VisualBasic.ChrW(13)
+        Me.GunaTransfarantPictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.GunaTransfarantPictureBox4.BaseColor = System.Drawing.Color.Black
+        Me.GunaTransfarantPictureBox4.Image = CType(resources.GetObject("GunaTransfarantPictureBox4.Image"), System.Drawing.Image)
+        Me.GunaTransfarantPictureBox4.Location = New System.Drawing.Point(320, 189)
+        Me.GunaTransfarantPictureBox4.Name = "GunaTransfarantPictureBox4"
+        Me.GunaTransfarantPictureBox4.Size = New System.Drawing.Size(30, 30)
+        Me.GunaTransfarantPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.GunaTransfarantPictureBox4.TabIndex = 41
+        Me.GunaTransfarantPictureBox4.TabStop = False
         '
-        'Panel1
+        'searchUser
         '
-        Me.Panel1.Controls.Add(Me.txtLogin)
-        Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(450, 60)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1470, 1020)
-        Me.Panel1.TabIndex = 52
+        Me.searchUser.BackColor = System.Drawing.Color.Transparent
+        Me.searchUser.BaseColor = System.Drawing.Color.White
+        Me.searchUser.BorderColor = System.Drawing.Color.Silver
+        Me.searchUser.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.searchUser.FocusedBaseColor = System.Drawing.Color.White
+        Me.searchUser.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.searchUser.FocusedForeColor = System.Drawing.SystemColors.ControlText
+        Me.searchUser.Font = New System.Drawing.Font("Poppins", 11.78182!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.searchUser.ForeColor = System.Drawing.Color.Silver
+        Me.searchUser.Location = New System.Drawing.Point(303, 175)
+        Me.searchUser.Name = "searchUser"
+        Me.searchUser.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.searchUser.Radius = 10
+        Me.searchUser.SelectedText = ""
+        Me.searchUser.Size = New System.Drawing.Size(1116, 60)
+        Me.searchUser.TabIndex = 40
+        Me.searchUser.TextOffsetX = 60
         '
-        'Label3
+        'crudUser
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Poppins", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(50, 49)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(516, 96)
-        Me.Label3.TabIndex = 36
-        Me.Label3.Text = "Selamat Datang,"
+        Me.crudUser.Animated = True
+        Me.crudUser.AnimationHoverSpeed = 0.07!
+        Me.crudUser.AnimationSpeed = 0.03!
+        Me.crudUser.BackColor = System.Drawing.Color.Transparent
+        Me.crudUser.BaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.crudUser.BorderColor = System.Drawing.Color.White
+        Me.crudUser.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.crudUser.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.crudUser.FocusedColor = System.Drawing.Color.Empty
+        Me.crudUser.Font = New System.Drawing.Font("Poppins", 9.818182!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.crudUser.ForeColor = System.Drawing.Color.White
+        Me.crudUser.Image = CType(resources.GetObject("crudUser.Image"), System.Drawing.Image)
+        Me.crudUser.ImageOffsetX = 10
+        Me.crudUser.ImageSize = New System.Drawing.Size(30, 30)
+        Me.crudUser.Location = New System.Drawing.Point(56, 175)
+        Me.crudUser.Name = "crudUser"
+        Me.crudUser.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.crudUser.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.crudUser.OnHoverForeColor = System.Drawing.Color.White
+        Me.crudUser.OnHoverImage = Nothing
+        Me.crudUser.OnPressedColor = System.Drawing.Color.Black
+        Me.crudUser.Radius = 10
+        Me.crudUser.Size = New System.Drawing.Size(207, 60)
+        Me.crudUser.TabIndex = 39
+        Me.crudUser.Text = "CRUD Pengguna"
         '
-        'txtLogin
+        'Label12
         '
-        Me.txtLogin.AutoSize = True
-        Me.txtLogin.Font = New System.Drawing.Font("Poppins", 18.32727!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtLogin.ForeColor = System.Drawing.Color.Black
-        Me.txtLogin.Location = New System.Drawing.Point(58, 129)
-        Me.txtLogin.Name = "txtLogin"
-        Me.txtLogin.Size = New System.Drawing.Size(557, 50)
-        Me.txtLogin.TabIndex = 37
-        Me.txtLogin.Text = "Ferdinan Imanuel Tumanggor / Admin"
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Poppins", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.Label12.Location = New System.Drawing.Point(40, 40)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(478, 96)
+        Me.Label12.TabIndex = 37
+        Me.Label12.Text = "Data Pengguna"
         '
         'dashboard
         '
@@ -346,7 +844,8 @@ Partial Class dashboard
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1920, 1080)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.user)
+        Me.Controls.Add(Me.home)
         Me.Controls.Add(Me.btnMin)
         Me.Controls.Add(Me.btnMax)
         Me.Controls.Add(Me.btnClose)
@@ -361,30 +860,80 @@ Partial Class dashboard
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.panelSide.ResumeLayout(False)
         Me.panelSide.PerformLayout()
+        Me.panelHeader.ResumeLayout(False)
+        Me.panelHeader.PerformLayout()
+        Me.home.ResumeLayout(False)
+        Me.home.PerformLayout()
+        CType(Me.dgvBarang, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GunaElipsePanel3.ResumeLayout(False)
+        Me.GunaElipsePanel3.PerformLayout()
+        CType(Me.GunaTransfarantPictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GunaElipsePanel2.ResumeLayout(False)
+        Me.GunaElipsePanel2.PerformLayout()
+        CType(Me.GunaTransfarantPictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GunaElipsePanel1.ResumeLayout(False)
+        Me.GunaElipsePanel1.PerformLayout()
+        CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnMin, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnMax, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnClose, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
+        Me.user.ResumeLayout(False)
+        Me.user.PerformLayout()
+        CType(Me.dgv_user, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GunaTransfarantPictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents panelSide As System.Windows.Forms.Panel
-    Friend WithEvents GunaButton4 As Guna.UI.WinForms.GunaButton
-    Friend WithEvents GunaButton5 As Guna.UI.WinForms.GunaButton
-    Friend WithEvents GunaButton2 As Guna.UI.WinForms.GunaButton
-    Friend WithEvents GunaButton3 As Guna.UI.WinForms.GunaButton
-    Friend WithEvents GunaButton1 As Guna.UI.WinForms.GunaButton
+    Friend WithEvents btnLogout As Guna.UI.WinForms.GunaButton
+    Friend WithEvents btnLapor As Guna.UI.WinForms.GunaButton
+    Friend WithEvents btnJual As Guna.UI.WinForms.GunaButton
+    Friend WithEvents btnBarang As Guna.UI.WinForms.GunaButton
+    Friend WithEvents btnpengguna As Guna.UI.WinForms.GunaButton
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents btndaftar As Guna.UI.WinForms.GunaButton
+    Friend WithEvents btnHome As Guna.UI.WinForms.GunaButton
     Friend WithEvents btnMin As System.Windows.Forms.PictureBox
     Friend WithEvents btnMax As System.Windows.Forms.PictureBox
     Friend WithEvents btnClose As System.Windows.Forms.PictureBox
     Friend WithEvents panelHeader As System.Windows.Forms.Panel
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents linkDaftar As System.Windows.Forms.Label
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents home As System.Windows.Forms.Panel
     Friend WithEvents txtLogin As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents GunaElipsePanel3 As Guna.UI.WinForms.GunaElipsePanel
+    Friend WithEvents GunaTransfarantPictureBox3 As Guna.UI.WinForms.GunaTransfarantPictureBox
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents GunaElipsePanel2 As Guna.UI.WinForms.GunaElipsePanel
+    Friend WithEvents GunaTransfarantPictureBox2 As Guna.UI.WinForms.GunaTransfarantPictureBox
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents GunaElipsePanel1 As Guna.UI.WinForms.GunaElipsePanel
+    Friend WithEvents GunaTransfarantPictureBox1 As Guna.UI.WinForms.GunaTransfarantPictureBox
+    Friend WithEvents totalBarang As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents dgvBarang As Guna.UI.WinForms.GunaDataGridView
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents user As System.Windows.Forms.Panel
+    Friend WithEvents dgv_user As Guna.UI.WinForms.GunaDataGridView
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents GunaTransfarantPictureBox4 As Guna.UI.WinForms.GunaTransfarantPictureBox
+    Friend WithEvents searchUser As Guna.UI.WinForms.GunaTextBox
+    Friend WithEvents crudUser As Guna.UI.WinForms.GunaButton
+    Friend WithEvents Label12 As System.Windows.Forms.Label
+    Friend WithEvents Column1 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column4 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column5 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column6 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column7 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column8 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column9 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column10 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column11 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column12 As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class

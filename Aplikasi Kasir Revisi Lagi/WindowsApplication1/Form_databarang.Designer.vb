@@ -45,11 +45,11 @@ Partial Class Form_databarang
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Montserrat Black", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
         Me.Label3.Location = New System.Drawing.Point(737, 45)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(301, 48)
+        Me.Label3.Size = New System.Drawing.Size(324, 47)
         Me.Label3.TabIndex = 27
         Me.Label3.Text = "DATA BARANG"
         '
@@ -121,7 +121,7 @@ Partial Class Form_databarang
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(745, 174)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(526, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(526, 25)
         Me.TextBox1.TabIndex = 24
         '
         'Label1
@@ -132,7 +132,7 @@ Partial Class Form_databarang
         Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(646, 175)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(96, 19)
+        Me.Label1.Size = New System.Drawing.Size(114, 21)
         Me.Label1.TabIndex = 23
         Me.Label1.Text = "Cari Data :"
         '
@@ -144,7 +144,7 @@ Partial Class Form_databarang
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(67, 252)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(252, 34)
+        Me.Label2.Size = New System.Drawing.Size(294, 39)
         Me.Label2.TabIndex = 20
         Me.Label2.Text = "DATA BARANG"
         '

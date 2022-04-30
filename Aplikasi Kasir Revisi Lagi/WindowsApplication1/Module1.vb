@@ -7,7 +7,7 @@ Module Module1
     Public Cmd As OleDbCommand
     Public LokasiData As String
     Public Sub konekdb()
-        LokasiData = "Data Source=localhost;user id=root;database=rumah_sakit;"
+        LokasiData = "provider=microsoft.jet.oledb.4.0;data source=db_aplikasi_revisi.mdb"
         Conn = New OleDbConnection(LokasiData)
         If Conn.State = ConnectionState.Closed Then Conn.Open()
     End Sub

@@ -80,6 +80,12 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="input_user.Designer.vb">
+      <DependentUpon>input_user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="input_user.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="dashboard.Designer.vb">
       <DependentUpon>dashboard.vb</DependentUpon>
     </Compile>
@@ -219,6 +225,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="input_user.resx">
+      <DependentUpon>input_user.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.vb</DependentUpon>
     </EmbeddedResource>
@@ -414,6 +423,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\user2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barang1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barang2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Category.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laporan1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laporan2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pengguna1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pengguna2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\penjualan1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\penjualan2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

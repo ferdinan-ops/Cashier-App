@@ -19,11 +19,27 @@ WindowsApplication1
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.barang1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.barang2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.cart">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.Category">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.Catholic_University_of_St_Thomas__Medan__logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.dashboard2">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -99,6 +115,14 @@ WindowsApplication1
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.laporan1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.laporan2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.level1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -136,6 +160,22 @@ WindowsApplication1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.pass1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.pengguna1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.pengguna2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.penjualan1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.penjualan2">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

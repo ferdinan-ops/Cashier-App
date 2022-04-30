@@ -277,6 +277,7 @@ Partial Class register
         Me.cbLevel.Font = New System.Drawing.Font("Poppins", 18.32727!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbLevel.ForeColor = System.Drawing.Color.Black
         Me.cbLevel.FormattingEnabled = True
+        Me.cbLevel.Items.AddRange(New Object() {"Admin", "Karyawan"})
         Me.cbLevel.Location = New System.Drawing.Point(1516, 606)
         Me.cbLevel.Name = "cbLevel"
         Me.cbLevel.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
