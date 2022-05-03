@@ -116,6 +116,12 @@
     <Compile Include="laporan_barang.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="lapor_harian.Designer.vb">
+      <DependentUpon>lapor_harian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lapor_harian.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Lap_Jual_Tahun.vb">
       <DependentUpon>Lap_Jual_Tahun.rpt</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -260,6 +266,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="laporan_barang.resx">
       <DependentUpon>laporan_barang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lapor_harian.resx">
+      <DependentUpon>lapor_harian.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lap_Jual_Tahun.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
