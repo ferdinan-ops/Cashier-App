@@ -2912,7 +2912,7 @@
         Hl/TSEtnYFS3kLO8Kcuu+chrp4QOEL4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="GunaTransfarantPictureBox8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnTahun.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAYAAACAvzbMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EwAACxMBAJqcGAAAzWhJREFUeF7t/Q3Qtdtd1gnKoHxj0iGEhJCELy1KB0VoHKHpIUFFARtCM1RDSw+M
@@ -3794,7 +3794,7 @@
         ZcuWLVu2bNmyZcuWLVu2bNmyZcuWLVu2bNmyZcuW3XH7bb/t/w/TdpsW5dDQSgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="GunaTransfarantPictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnBulan.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAYAAACAvzbMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EwAACxMBAJqcGAAA1oxJREFUeF7t/Qm4dUlZ3o3Hv4mKQ5wRHJDkS0z+xjgmlxpFQGNiYhxRUIKKioIg
@@ -4715,7 +4715,7 @@
         2rRp06ZNmzZt2rRp06ZNmzZt2rRp06ZNmzZt2rRpZ9z+wT/4/wDCQnb/h5/MOAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="GunaTransfarantPictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnHarian.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAYAAACAvzbMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EwAACxMBAJqcGAAA0N9JREFUeF7t/QvcNktZ3onGbcaYmWR0q4loFA/Zk5+TZNRRozvbhIOaGPGAktHg

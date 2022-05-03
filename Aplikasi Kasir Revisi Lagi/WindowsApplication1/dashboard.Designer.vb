@@ -23,15 +23,15 @@ Partial Class dashboard
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(dashboard))
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.panelSide = New System.Windows.Forms.Panel()
         Me.btnLogout = New Guna.UI.WinForms.GunaButton()
         Me.btnLapor = New Guna.UI.WinForms.GunaButton()
@@ -100,10 +100,10 @@ Partial Class dashboard
         Me.btnMax = New System.Windows.Forms.PictureBox()
         Me.btnClose = New System.Windows.Forms.PictureBox()
         Me.laporan = New System.Windows.Forms.Panel()
+        Me.btnTahun = New Guna.UI.WinForms.GunaTransfarantPictureBox()
+        Me.btnBulan = New Guna.UI.WinForms.GunaTransfarantPictureBox()
+        Me.btnHarian = New Guna.UI.WinForms.GunaTransfarantPictureBox()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.GunaTransfarantPictureBox6 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
-        Me.GunaTransfarantPictureBox7 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
-        Me.GunaTransfarantPictureBox8 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
         Me.panelSide.SuspendLayout()
         Me.panelHeader.SuspendLayout()
         Me.home.SuspendLayout()
@@ -124,9 +124,9 @@ Partial Class dashboard
         CType(Me.btnMax, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnClose, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.laporan.SuspendLayout()
-        CType(Me.GunaTransfarantPictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GunaTransfarantPictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GunaTransfarantPictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btnTahun, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btnBulan, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btnHarian, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'panelSide
@@ -405,30 +405,30 @@ Partial Class dashboard
         '
         'dgv_barang
         '
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        Me.dgv_barang.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle10.BackColor = System.Drawing.Color.White
+        Me.dgv_barang.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle10
         Me.dgv_barang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dgv_barang.BackgroundColor = System.Drawing.Color.White
         Me.dgv_barang.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.dgv_barang.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgv_barang.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        DataGridViewCellStyle11.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgv_barang.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle11
         Me.dgv_barang.ColumnHeadersHeight = 50
         Me.dgv_barang.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column13, Me.Column14, Me.Column15, Me.Column16, Me.Column17, Me.Column18, Me.Column19})
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgv_barang.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle12.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle12.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgv_barang.DefaultCellStyle = DataGridViewCellStyle12
         Me.dgv_barang.EnableHeadersVisualStyles = False
         Me.dgv_barang.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.dgv_barang.Location = New System.Drawing.Point(66, 581)
@@ -669,30 +669,30 @@ Partial Class dashboard
         '
         'dgvDashboard
         '
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
-        Me.dgvDashboard.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle13.BackColor = System.Drawing.Color.White
+        Me.dgvDashboard.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle13
         Me.dgvDashboard.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dgvDashboard.BackgroundColor = System.Drawing.Color.White
         Me.dgvDashboard.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.dgvDashboard.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvDashboard.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        DataGridViewCellStyle14.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvDashboard.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle14
         Me.dgvDashboard.ColumnHeadersHeight = 50
         Me.dgvDashboard.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7})
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvDashboard.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle15.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle15.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvDashboard.DefaultCellStyle = DataGridViewCellStyle15
         Me.dgvDashboard.EnableHeadersVisualStyles = False
         Me.dgvDashboard.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.dgvDashboard.Location = New System.Drawing.Point(56, 408)
@@ -776,30 +776,30 @@ Partial Class dashboard
         '
         'dgv_user
         '
-        DataGridViewCellStyle7.BackColor = System.Drawing.Color.White
-        Me.dgv_user.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle16.BackColor = System.Drawing.Color.White
+        Me.dgv_user.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle16
         Me.dgv_user.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dgv_user.BackgroundColor = System.Drawing.Color.White
         Me.dgv_user.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.dgv_user.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgv_user.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        DataGridViewCellStyle17.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgv_user.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle17
         Me.dgv_user.ColumnHeadersHeight = 50
         Me.dgv_user.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column8, Me.Column9, Me.Column10, Me.Column11, Me.Column12})
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgv_user.DefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle18.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle18.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgv_user.DefaultCellStyle = DataGridViewCellStyle18
         Me.dgv_user.EnableHeadersVisualStyles = False
         Me.dgv_user.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.dgv_user.Location = New System.Drawing.Point(56, 408)
@@ -1100,15 +1100,54 @@ Partial Class dashboard
         '
         'laporan
         '
-        Me.laporan.Controls.Add(Me.GunaTransfarantPictureBox8)
-        Me.laporan.Controls.Add(Me.GunaTransfarantPictureBox7)
-        Me.laporan.Controls.Add(Me.GunaTransfarantPictureBox6)
+        Me.laporan.Controls.Add(Me.btnTahun)
+        Me.laporan.Controls.Add(Me.btnBulan)
+        Me.laporan.Controls.Add(Me.btnHarian)
         Me.laporan.Controls.Add(Me.Label15)
         Me.laporan.Dock = System.Windows.Forms.DockStyle.Fill
         Me.laporan.Location = New System.Drawing.Point(450, 60)
         Me.laporan.Name = "laporan"
         Me.laporan.Size = New System.Drawing.Size(1470, 1020)
         Me.laporan.TabIndex = 78
+        '
+        'btnTahun
+        '
+        Me.btnTahun.BackColor = System.Drawing.Color.Transparent
+        Me.btnTahun.BaseColor = System.Drawing.Color.Black
+        Me.btnTahun.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnTahun.Image = CType(resources.GetObject("btnTahun.Image"), System.Drawing.Image)
+        Me.btnTahun.Location = New System.Drawing.Point(1006, 338)
+        Me.btnTahun.Name = "btnTahun"
+        Me.btnTahun.Size = New System.Drawing.Size(400, 400)
+        Me.btnTahun.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.btnTahun.TabIndex = 40
+        Me.btnTahun.TabStop = False
+        '
+        'btnBulan
+        '
+        Me.btnBulan.BackColor = System.Drawing.Color.Transparent
+        Me.btnBulan.BaseColor = System.Drawing.Color.Black
+        Me.btnBulan.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnBulan.Image = CType(resources.GetObject("btnBulan.Image"), System.Drawing.Image)
+        Me.btnBulan.Location = New System.Drawing.Point(556, 338)
+        Me.btnBulan.Name = "btnBulan"
+        Me.btnBulan.Size = New System.Drawing.Size(400, 400)
+        Me.btnBulan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.btnBulan.TabIndex = 39
+        Me.btnBulan.TabStop = False
+        '
+        'btnHarian
+        '
+        Me.btnHarian.BackColor = System.Drawing.Color.Transparent
+        Me.btnHarian.BaseColor = System.Drawing.Color.Black
+        Me.btnHarian.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnHarian.Image = CType(resources.GetObject("btnHarian.Image"), System.Drawing.Image)
+        Me.btnHarian.Location = New System.Drawing.Point(106, 338)
+        Me.btnHarian.Name = "btnHarian"
+        Me.btnHarian.Size = New System.Drawing.Size(400, 400)
+        Me.btnHarian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.btnHarian.TabIndex = 38
+        Me.btnHarian.TabStop = False
         '
         'Label15
         '
@@ -1120,42 +1159,6 @@ Partial Class dashboard
         Me.Label15.Size = New System.Drawing.Size(273, 96)
         Me.Label15.TabIndex = 37
         Me.Label15.Text = "Laporan"
-        '
-        'GunaTransfarantPictureBox6
-        '
-        Me.GunaTransfarantPictureBox6.BackColor = System.Drawing.Color.Transparent
-        Me.GunaTransfarantPictureBox6.BaseColor = System.Drawing.Color.Black
-        Me.GunaTransfarantPictureBox6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.GunaTransfarantPictureBox6.Image = CType(resources.GetObject("GunaTransfarantPictureBox6.Image"), System.Drawing.Image)
-        Me.GunaTransfarantPictureBox6.Location = New System.Drawing.Point(106, 338)
-        Me.GunaTransfarantPictureBox6.Name = "GunaTransfarantPictureBox6"
-        Me.GunaTransfarantPictureBox6.Size = New System.Drawing.Size(400, 400)
-        Me.GunaTransfarantPictureBox6.TabIndex = 38
-        Me.GunaTransfarantPictureBox6.TabStop = False
-        '
-        'GunaTransfarantPictureBox7
-        '
-        Me.GunaTransfarantPictureBox7.BackColor = System.Drawing.Color.Transparent
-        Me.GunaTransfarantPictureBox7.BaseColor = System.Drawing.Color.Black
-        Me.GunaTransfarantPictureBox7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.GunaTransfarantPictureBox7.Image = CType(resources.GetObject("GunaTransfarantPictureBox7.Image"), System.Drawing.Image)
-        Me.GunaTransfarantPictureBox7.Location = New System.Drawing.Point(556, 338)
-        Me.GunaTransfarantPictureBox7.Name = "GunaTransfarantPictureBox7"
-        Me.GunaTransfarantPictureBox7.Size = New System.Drawing.Size(400, 400)
-        Me.GunaTransfarantPictureBox7.TabIndex = 39
-        Me.GunaTransfarantPictureBox7.TabStop = False
-        '
-        'GunaTransfarantPictureBox8
-        '
-        Me.GunaTransfarantPictureBox8.BackColor = System.Drawing.Color.Transparent
-        Me.GunaTransfarantPictureBox8.BaseColor = System.Drawing.Color.Black
-        Me.GunaTransfarantPictureBox8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.GunaTransfarantPictureBox8.Image = CType(resources.GetObject("GunaTransfarantPictureBox8.Image"), System.Drawing.Image)
-        Me.GunaTransfarantPictureBox8.Location = New System.Drawing.Point(1006, 338)
-        Me.GunaTransfarantPictureBox8.Name = "GunaTransfarantPictureBox8"
-        Me.GunaTransfarantPictureBox8.Size = New System.Drawing.Size(400, 400)
-        Me.GunaTransfarantPictureBox8.TabIndex = 40
-        Me.GunaTransfarantPictureBox8.TabStop = False
         '
         'dashboard
         '
@@ -1205,9 +1208,9 @@ Partial Class dashboard
         CType(Me.btnClose, System.ComponentModel.ISupportInitialize).EndInit()
         Me.laporan.ResumeLayout(False)
         Me.laporan.PerformLayout()
-        CType(Me.GunaTransfarantPictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GunaTransfarantPictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GunaTransfarantPictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btnTahun, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btnBulan, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btnHarian, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1281,7 +1284,7 @@ Partial Class dashboard
     Friend WithEvents txtLevel As System.Windows.Forms.Label
     Friend WithEvents laporan As System.Windows.Forms.Panel
     Friend WithEvents Label15 As System.Windows.Forms.Label
-    Friend WithEvents GunaTransfarantPictureBox7 As Guna.UI.WinForms.GunaTransfarantPictureBox
-    Friend WithEvents GunaTransfarantPictureBox6 As Guna.UI.WinForms.GunaTransfarantPictureBox
-    Friend WithEvents GunaTransfarantPictureBox8 As Guna.UI.WinForms.GunaTransfarantPictureBox
+    Friend WithEvents btnBulan As Guna.UI.WinForms.GunaTransfarantPictureBox
+    Friend WithEvents btnHarian As Guna.UI.WinForms.GunaTransfarantPictureBox
+    Friend WithEvents btnTahun As Guna.UI.WinForms.GunaTransfarantPictureBox
 End Class

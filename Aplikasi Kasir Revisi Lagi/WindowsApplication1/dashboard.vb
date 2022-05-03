@@ -166,6 +166,7 @@ Public Class dashboard
     End Sub
     'Akhir Barang
 
+    'penjualan
     Private Sub btnJual_Click(sender As Object, e As EventArgs) Handles btnJual.Click
         btnJual.BaseColor = Color.FromArgb(3, 172, 14)
         btnJual.ForeColor = Color.White
@@ -189,7 +190,9 @@ Public Class dashboard
         btnLapor.ForeColor = Color.FromArgb(3, 172, 14)
         btnLapor.Image = WindowsApplication1.My.Resources.Resources.laporan1
     End Sub
+    'akhir penjualan
 
+    'laporan
     Private Sub btnLapor_Click(sender As Object, e As EventArgs) Handles btnLapor.Click
         btnLapor.BaseColor = Color.FromArgb(3, 172, 14)
         btnLapor.ForeColor = Color.White
@@ -216,6 +219,13 @@ Public Class dashboard
         btnHome.Image = WindowsApplication1.My.Resources.Resources.Category
     End Sub
 
+    Private Sub btnHarian_Click(sender As Object, e As EventArgs) Handles btnHarian.Click
+        Me.Hide()
+        lapor_harian.Show()
+    End Sub
+    'akhir laporan
+
+    'load
     Private Sub dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         btnHome.BaseColor = Color.FromArgb(3, 172, 14)
         btnHome.ForeColor = Color.White
@@ -239,4 +249,5 @@ Public Class dashboard
         Call tampil_barang()
         'Akhir barang
     End Sub
+    'akhir load
 End Class

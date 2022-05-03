@@ -34,6 +34,8 @@ Partial Class lapor_harian
         Me.btnCari = New Guna.UI.WinForms.GunaButton()
         Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.DateTimePicker1 = New Guna.UI.WinForms.GunaDateTimePicker()
         Me.panelHeader.SuspendLayout()
         CType(Me.btnMin, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnMax, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -220,9 +222,45 @@ Partial Class lapor_harian
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(63, 160)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(328, 50)
+        Me.Label2.Size = New System.Drawing.Size(243, 50)
         Me.Label2.TabIndex = 76
-        Me.Label2.Text = "Laporan Data Barang"
+        Me.Label2.Text = "Laporan Harian"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Poppins Medium", 13.74545!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(264, 309)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(193, 37)
+        Me.Label3.TabIndex = 83
+        Me.Label3.Text = "Laporan Harian"
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.BackColor = System.Drawing.Color.Transparent
+        Me.DateTimePicker1.BaseColor = System.Drawing.Color.White
+        Me.DateTimePicker1.BorderColor = System.Drawing.Color.Black
+        Me.DateTimePicker1.CustomFormat = "dd/MM/yyy"
+        Me.DateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
+        Me.DateTimePicker1.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.DateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.DateTimePicker1.ForeColor = System.Drawing.Color.Black
+        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.DateTimePicker1.Location = New System.Drawing.Point(472, 313)
+        Me.DateTimePicker1.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        Me.DateTimePicker1.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.OnHoverBaseColor = System.Drawing.Color.White
+        Me.DateTimePicker1.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.DateTimePicker1.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.DateTimePicker1.OnPressedColor = System.Drawing.Color.Black
+        Me.DateTimePicker1.Radius = 5
+        Me.DateTimePicker1.Size = New System.Drawing.Size(215, 30)
+        Me.DateTimePicker1.TabIndex = 84
+        Me.DateTimePicker1.Text = "03/05/2022"
+        Me.DateTimePicker1.Value = New Date(2022, 5, 3, 0, 0, 0, 0)
         '
         'lapor_harian
         '
@@ -230,6 +268,8 @@ Partial Class lapor_harian
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1920, 1080)
+        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.panelHeader)
         Me.Controls.Add(Me.btnEkspor)
         Me.Controls.Add(Me.btnPrint)
@@ -261,4 +301,6 @@ Partial Class lapor_harian
     Friend WithEvents btnCari As Guna.UI.WinForms.GunaButton
     Friend WithEvents CrystalReportViewer1 As CrystalDecisions.Windows.Forms.CrystalReportViewer
     Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents DateTimePicker1 As Guna.UI.WinForms.GunaDateTimePicker
 End Class
