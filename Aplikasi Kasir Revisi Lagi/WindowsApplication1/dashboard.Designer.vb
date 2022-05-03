@@ -101,6 +101,9 @@ Partial Class dashboard
         Me.btnClose = New System.Windows.Forms.PictureBox()
         Me.laporan = New System.Windows.Forms.Panel()
         Me.Label15 = New System.Windows.Forms.Label()
+        Me.GunaTransfarantPictureBox6 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
+        Me.GunaTransfarantPictureBox7 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
+        Me.GunaTransfarantPictureBox8 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
         Me.panelSide.SuspendLayout()
         Me.panelHeader.SuspendLayout()
         Me.home.SuspendLayout()
@@ -121,6 +124,9 @@ Partial Class dashboard
         CType(Me.btnMax, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnClose, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.laporan.SuspendLayout()
+        CType(Me.GunaTransfarantPictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GunaTransfarantPictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GunaTransfarantPictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'panelSide
@@ -1094,6 +1100,9 @@ Partial Class dashboard
         '
         'laporan
         '
+        Me.laporan.Controls.Add(Me.GunaTransfarantPictureBox8)
+        Me.laporan.Controls.Add(Me.GunaTransfarantPictureBox7)
+        Me.laporan.Controls.Add(Me.GunaTransfarantPictureBox6)
         Me.laporan.Controls.Add(Me.Label15)
         Me.laporan.Dock = System.Windows.Forms.DockStyle.Fill
         Me.laporan.Location = New System.Drawing.Point(450, 60)
@@ -1111,6 +1120,42 @@ Partial Class dashboard
         Me.Label15.Size = New System.Drawing.Size(273, 96)
         Me.Label15.TabIndex = 37
         Me.Label15.Text = "Laporan"
+        '
+        'GunaTransfarantPictureBox6
+        '
+        Me.GunaTransfarantPictureBox6.BackColor = System.Drawing.Color.Transparent
+        Me.GunaTransfarantPictureBox6.BaseColor = System.Drawing.Color.Black
+        Me.GunaTransfarantPictureBox6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.GunaTransfarantPictureBox6.Image = CType(resources.GetObject("GunaTransfarantPictureBox6.Image"), System.Drawing.Image)
+        Me.GunaTransfarantPictureBox6.Location = New System.Drawing.Point(106, 338)
+        Me.GunaTransfarantPictureBox6.Name = "GunaTransfarantPictureBox6"
+        Me.GunaTransfarantPictureBox6.Size = New System.Drawing.Size(400, 400)
+        Me.GunaTransfarantPictureBox6.TabIndex = 38
+        Me.GunaTransfarantPictureBox6.TabStop = False
+        '
+        'GunaTransfarantPictureBox7
+        '
+        Me.GunaTransfarantPictureBox7.BackColor = System.Drawing.Color.Transparent
+        Me.GunaTransfarantPictureBox7.BaseColor = System.Drawing.Color.Black
+        Me.GunaTransfarantPictureBox7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.GunaTransfarantPictureBox7.Image = CType(resources.GetObject("GunaTransfarantPictureBox7.Image"), System.Drawing.Image)
+        Me.GunaTransfarantPictureBox7.Location = New System.Drawing.Point(556, 338)
+        Me.GunaTransfarantPictureBox7.Name = "GunaTransfarantPictureBox7"
+        Me.GunaTransfarantPictureBox7.Size = New System.Drawing.Size(400, 400)
+        Me.GunaTransfarantPictureBox7.TabIndex = 39
+        Me.GunaTransfarantPictureBox7.TabStop = False
+        '
+        'GunaTransfarantPictureBox8
+        '
+        Me.GunaTransfarantPictureBox8.BackColor = System.Drawing.Color.Transparent
+        Me.GunaTransfarantPictureBox8.BaseColor = System.Drawing.Color.Black
+        Me.GunaTransfarantPictureBox8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.GunaTransfarantPictureBox8.Image = CType(resources.GetObject("GunaTransfarantPictureBox8.Image"), System.Drawing.Image)
+        Me.GunaTransfarantPictureBox8.Location = New System.Drawing.Point(1006, 338)
+        Me.GunaTransfarantPictureBox8.Name = "GunaTransfarantPictureBox8"
+        Me.GunaTransfarantPictureBox8.Size = New System.Drawing.Size(400, 400)
+        Me.GunaTransfarantPictureBox8.TabIndex = 40
+        Me.GunaTransfarantPictureBox8.TabStop = False
         '
         'dashboard
         '
@@ -1160,6 +1205,9 @@ Partial Class dashboard
         CType(Me.btnClose, System.ComponentModel.ISupportInitialize).EndInit()
         Me.laporan.ResumeLayout(False)
         Me.laporan.PerformLayout()
+        CType(Me.GunaTransfarantPictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GunaTransfarantPictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GunaTransfarantPictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1233,4 +1281,7 @@ Partial Class dashboard
     Friend WithEvents txtLevel As System.Windows.Forms.Label
     Friend WithEvents laporan As System.Windows.Forms.Panel
     Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents GunaTransfarantPictureBox7 As Guna.UI.WinForms.GunaTransfarantPictureBox
+    Friend WithEvents GunaTransfarantPictureBox6 As Guna.UI.WinForms.GunaTransfarantPictureBox
+    Friend WithEvents GunaTransfarantPictureBox8 As Guna.UI.WinForms.GunaTransfarantPictureBox
 End Class

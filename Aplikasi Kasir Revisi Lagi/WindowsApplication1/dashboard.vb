@@ -20,6 +20,7 @@ Public Class dashboard
         btnHome.Image = WindowsApplication1.My.Resources.Resources.dashboard2
         user.Hide()
         barang.Hide()
+        laporan.Hide()
         home.Show()
 
         btnpengguna.BaseColor = Color.White
@@ -62,6 +63,7 @@ Public Class dashboard
         btnpengguna.Image = WindowsApplication1.My.Resources.Resources.pengguna2
         home.Hide()
         barang.Hide()
+        laporan.Hide()
         user.Show()
 
         btnHome.BaseColor = Color.White
@@ -116,6 +118,7 @@ Public Class dashboard
         btnBarang.Image = WindowsApplication1.My.Resources.Resources.barang2
         home.Hide()
         user.Hide()
+        laporan.Hide()
         barang.Show()
 
         btnpengguna.BaseColor = Color.White
@@ -191,6 +194,10 @@ Public Class dashboard
         btnLapor.BaseColor = Color.FromArgb(3, 172, 14)
         btnLapor.ForeColor = Color.White
         btnLapor.Image = WindowsApplication1.My.Resources.Resources.laporan2
+        home.Hide()
+        user.Hide()
+        barang.Hide()
+        laporan.Show()
 
         btnpengguna.BaseColor = Color.White
         btnpengguna.ForeColor = Color.FromArgb(3, 172, 14)
