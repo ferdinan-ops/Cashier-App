@@ -229,6 +229,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="penjualan.Designer.vb">
+      <DependentUpon>penjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="penjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="register.Designer.vb">
       <DependentUpon>register.vb</DependentUpon>
     </Compile>
@@ -309,6 +315,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="penjualan.resx">
+      <DependentUpon>penjualan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.vb</DependentUpon>
