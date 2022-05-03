@@ -167,6 +167,8 @@ Public Class dashboard
         btnJual.BaseColor = Color.FromArgb(3, 172, 14)
         btnJual.ForeColor = Color.White
         btnJual.Image = WindowsApplication1.My.Resources.Resources.penjualan2
+        Me.Hide()
+        penjualan.Show()
 
         btnpengguna.BaseColor = Color.White
         btnpengguna.ForeColor = Color.FromArgb(3, 172, 14)

@@ -23,8 +23,16 @@ Public Class login
             Rd.Read()
             If Rd.HasRows = True Then
                 dashboard.txtLogin.Text = Rd.Item("NamaUser") + " / " + Rd.Item("Lvl")
-                Me.Hide()
-                dashboard.Show()
+                dashboard.txtLevel.Text = Rd.Item("Lvl")
+                penjualan.v0kasir.Text = Rd.Item("NamaUser")
+                If Rd.Item("Lvl") = "Admin" Then
+                    Me.Hide()
+                    dashboard.Show()
+                Else
+                    Me.Hide()
+                    penjualan.Show()
+                End If
+                
             Else
                 MessageBox.Show("Password atau Username Anda Salah")
             End If

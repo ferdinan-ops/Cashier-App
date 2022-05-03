@@ -22,14 +22,15 @@ Partial Class penjualan
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(penjualan))
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.panelHeader = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
         Me.btnMin = New System.Windows.Forms.PictureBox()
         Me.btnMax = New System.Windows.Forms.PictureBox()
         Me.btnClose = New System.Windows.Forms.PictureBox()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.btnLogin = New Guna.UI.WinForms.GunaButton()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -41,17 +42,10 @@ Partial Class penjualan
         Me.v0tanggal = New Guna.UI.WinForms.GunaTextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.GunaElipsePanel1 = New Guna.UI.WinForms.GunaElipsePanel()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
         Me.v0grandtotal = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.v0jumlah = New System.Windows.Forms.TextBox()
-        Me.v0hargabarang = New System.Windows.Forms.TextBox()
-        Me.v0satuanbarang = New System.Windows.Forms.TextBox()
-        Me.v0jenisbarang = New System.Windows.Forms.TextBox()
-        Me.v0namabarang = New System.Windows.Forms.TextBox()
-        Me.v0kodebarang = New System.Windows.Forms.TextBox()
-        Me.v0totalharga = New System.Windows.Forms.TextBox()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -59,9 +53,15 @@ Partial Class penjualan
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.v0jumlah = New System.Windows.Forms.TextBox()
+        Me.v0hargabarang = New System.Windows.Forms.TextBox()
+        Me.v0satuanbarang = New System.Windows.Forms.TextBox()
+        Me.v0jenisbarang = New System.Windows.Forms.TextBox()
+        Me.v0namabarang = New System.Windows.Forms.TextBox()
+        Me.v0kodebarang = New System.Windows.Forms.TextBox()
+        Me.v0totalharga = New System.Windows.Forms.TextBox()
         Me.GunaButton1 = New Guna.UI.WinForms.GunaButton()
         Me.GunaElipsePanel2 = New Guna.UI.WinForms.GunaElipsePanel()
-        Me.v0dibayar = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
@@ -69,6 +69,8 @@ Partial Class penjualan
         Me.v0kembalian = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.GunaButton2 = New Guna.UI.WinForms.GunaButton()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.v0dibayar = New Guna.UI.WinForms.GunaTextBox()
         Me.panelHeader.SuspendLayout()
         CType(Me.btnMin, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnMax, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -104,17 +106,6 @@ Partial Class penjualan
         Me.Label1.Text = "LOGO"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Poppins", 13.74545!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(703, 15)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(107, 37)
-        Me.Label11.TabIndex = 44
-        Me.Label11.Text = "12.45 PM"
-        '
         'btnMin
         '
         Me.btnMin.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(194, Byte), Integer))
@@ -147,6 +138,17 @@ Partial Class penjualan
         Me.btnClose.Size = New System.Drawing.Size(20, 20)
         Me.btnClose.TabIndex = 45
         Me.btnClose.TabStop = False
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Poppins", 13.74545!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.Black
+        Me.Label11.Location = New System.Drawing.Point(703, 15)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(107, 37)
+        Me.Label11.TabIndex = 44
+        Me.Label11.Text = "12.45 PM"
         '
         'btnLogin
         '
@@ -319,17 +321,16 @@ Partial Class penjualan
         Me.GunaElipsePanel1.Size = New System.Drawing.Size(1216, 259)
         Me.GunaElipsePanel1.TabIndex = 64
         '
-        'Label7
+        'v0grandtotal
         '
-        Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.Label7.Font = New System.Drawing.Font("Poppins", 11.78182!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(1001, 69)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(432, 37)
-        Me.Label7.TabIndex = 65
-        Me.Label7.Text = "Grand Total"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.v0grandtotal.Font = New System.Drawing.Font("Poppins", 47.78182!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.v0grandtotal.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.v0grandtotal.Location = New System.Drawing.Point(234, 80)
+        Me.v0grandtotal.Name = "v0grandtotal"
+        Me.v0grandtotal.Size = New System.Drawing.Size(909, 130)
+        Me.v0grandtotal.TabIndex = 67
+        Me.v0grandtotal.Text = "2.000.000"
+        Me.v0grandtotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label8
         '
@@ -342,35 +343,78 @@ Partial Class penjualan
         Me.Label8.TabIndex = 66
         Me.Label8.Text = "Rp."
         '
-        'v0grandtotal
+        'Label7
         '
-        Me.v0grandtotal.Font = New System.Drawing.Font("Poppins", 47.78182!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.v0grandtotal.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.v0grandtotal.Location = New System.Drawing.Point(234, 80)
-        Me.v0grandtotal.Name = "v0grandtotal"
-        Me.v0grandtotal.Size = New System.Drawing.Size(909, 130)
-        Me.v0grandtotal.TabIndex = 67
-        Me.v0grandtotal.Text = "2.000.000"
-        Me.v0grandtotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.Label7.Font = New System.Drawing.Font("Poppins", 11.78182!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.White
+        Me.Label7.Location = New System.Drawing.Point(1001, 69)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(432, 37)
+        Me.Label7.TabIndex = 65
+        Me.Label7.Text = "Grand Total"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'DataGridView1
         '
         Me.DataGridView1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7})
         Me.DataGridView1.Location = New System.Drawing.Point(73, 407)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(1753, 366)
         Me.DataGridView1.TabIndex = 66
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "Kode Barang"
+        Me.Column1.Name = "Column1"
+        Me.Column1.Width = 200
+        '
+        'Column2
+        '
+        Me.Column2.HeaderText = "Nama Barang"
+        Me.Column2.Name = "Column2"
+        Me.Column2.Width = 540
+        '
+        'Column3
+        '
+        Me.Column3.HeaderText = "Jenis Barang"
+        Me.Column3.Name = "Column3"
+        Me.Column3.Width = 200
+        '
+        'Column4
+        '
+        Me.Column4.HeaderText = "Satuan Barang"
+        Me.Column4.Name = "Column4"
+        Me.Column4.Width = 200
+        '
+        'Column5
+        '
+        Me.Column5.HeaderText = "Harga Barang"
+        Me.Column5.Name = "Column5"
+        Me.Column5.Width = 200
+        '
+        'Column6
+        '
+        Me.Column6.HeaderText = "QTY"
+        Me.Column6.Name = "Column6"
+        Me.Column6.Width = 150
+        '
+        'Column7
+        '
+        Me.Column7.HeaderText = "Total Harga"
+        Me.Column7.Name = "Column7"
+        Me.Column7.Width = 220
         '
         'v0jumlah
         '
@@ -436,48 +480,6 @@ Partial Class penjualan
         Me.v0totalharga.TabIndex = 73
         Me.v0totalharga.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
-        'Column1
-        '
-        Me.Column1.HeaderText = "Kode Barang"
-        Me.Column1.Name = "Column1"
-        Me.Column1.Width = 200
-        '
-        'Column2
-        '
-        Me.Column2.HeaderText = "Nama Barang"
-        Me.Column2.Name = "Column2"
-        Me.Column2.Width = 540
-        '
-        'Column3
-        '
-        Me.Column3.HeaderText = "Jenis Barang"
-        Me.Column3.Name = "Column3"
-        Me.Column3.Width = 200
-        '
-        'Column4
-        '
-        Me.Column4.HeaderText = "Satuan Barang"
-        Me.Column4.Name = "Column4"
-        Me.Column4.Width = 200
-        '
-        'Column5
-        '
-        Me.Column5.HeaderText = "Harga Barang"
-        Me.Column5.Name = "Column5"
-        Me.Column5.Width = 200
-        '
-        'Column6
-        '
-        Me.Column6.HeaderText = "QTY"
-        Me.Column6.Name = "Column6"
-        Me.Column6.Width = 150
-        '
-        'Column7
-        '
-        Me.Column7.HeaderText = "Total Harga"
-        Me.Column7.Name = "Column7"
-        Me.Column7.Width = 220
-        '
         'GunaButton1
         '
         Me.GunaButton1.Animated = True
@@ -517,17 +519,6 @@ Partial Class penjualan
         Me.GunaElipsePanel2.Radius = 10
         Me.GunaElipsePanel2.Size = New System.Drawing.Size(716, 182)
         Me.GunaElipsePanel2.TabIndex = 75
-        '
-        'v0dibayar
-        '
-        Me.v0dibayar.Font = New System.Drawing.Font("Poppins", 28.14545!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.v0dibayar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.v0dibayar.Location = New System.Drawing.Point(216, 67)
-        Me.v0dibayar.Name = "v0dibayar"
-        Me.v0dibayar.Size = New System.Drawing.Size(497, 76)
-        Me.v0dibayar.TabIndex = 67
-        Me.v0dibayar.Text = "2.000.000"
-        Me.v0dibayar.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label12
         '
@@ -627,6 +618,31 @@ Partial Class penjualan
         Me.GunaButton2.Text = "Simpan"
         Me.GunaButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
+        '
+        'v0dibayar
+        '
+        Me.v0dibayar.BaseColor = System.Drawing.Color.Black
+        Me.v0dibayar.BorderColor = System.Drawing.Color.Black
+        Me.v0dibayar.BorderSize = 0
+        Me.v0dibayar.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.v0dibayar.FocusedBaseColor = System.Drawing.Color.Black
+        Me.v0dibayar.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.v0dibayar.FocusedForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.v0dibayar.Font = New System.Drawing.Font("Poppins", 28.14545!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.v0dibayar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.v0dibayar.Location = New System.Drawing.Point(216, 67)
+        Me.v0dibayar.Name = "v0dibayar"
+        Me.v0dibayar.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.v0dibayar.SelectedText = ""
+        Me.v0dibayar.Size = New System.Drawing.Size(480, 76)
+        Me.v0dibayar.TabIndex = 68
+        Me.v0dibayar.Text = "2.000.000"
+        Me.v0dibayar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
         'penjualan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -718,7 +734,6 @@ Partial Class penjualan
     Friend WithEvents v0totalharga As System.Windows.Forms.TextBox
     Friend WithEvents GunaButton1 As Guna.UI.WinForms.GunaButton
     Friend WithEvents GunaElipsePanel2 As Guna.UI.WinForms.GunaElipsePanel
-    Friend WithEvents v0dibayar As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Label14 As System.Windows.Forms.Label
@@ -726,4 +741,6 @@ Partial Class penjualan
     Friend WithEvents v0kembalian As System.Windows.Forms.Label
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents GunaButton2 As Guna.UI.WinForms.GunaButton
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents v0dibayar As Guna.UI.WinForms.GunaTextBox
 End Class
