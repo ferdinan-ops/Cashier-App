@@ -122,6 +122,12 @@
     <Compile Include="laporan_bulanan.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="laporan_tahunan.Designer.vb">
+      <DependentUpon>laporan_tahunan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan_tahunan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="lapor_harian.Designer.vb">
       <DependentUpon>lapor_harian.vb</DependentUpon>
     </Compile>
@@ -275,6 +281,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="laporan_bulanan.resx">
       <DependentUpon>laporan_bulanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan_tahunan.resx">
+      <DependentUpon>laporan_tahunan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="lapor_harian.resx">
       <DependentUpon>lapor_harian.vb</DependentUpon>
