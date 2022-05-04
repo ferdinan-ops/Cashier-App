@@ -3,7 +3,8 @@ Imports CrystalDecisions.CrystalReports.Engine
 Imports CrystalDecisions.Shared
 Public Class laporan_barang
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
-        End
+        Me.Hide()
+        dashboard.Show()
     End Sub
 
     Private Sub btnMax_Click(sender As Object, e As EventArgs) Handles btnMax.Click

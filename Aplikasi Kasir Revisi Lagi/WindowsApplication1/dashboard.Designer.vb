@@ -22,6 +22,7 @@ Partial Class dashboard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(dashboard))
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -31,11 +32,16 @@ Partial Class dashboard
         Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(dashboard))
         Me.panelSide = New System.Windows.Forms.Panel()
+        Me.btnLogout = New Guna.UI.WinForms.GunaButton()
+        Me.btnLapor = New Guna.UI.WinForms.GunaButton()
+        Me.btnJual = New Guna.UI.WinForms.GunaButton()
+        Me.btnBarang = New Guna.UI.WinForms.GunaButton()
+        Me.btnpengguna = New Guna.UI.WinForms.GunaButton()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnHome = New Guna.UI.WinForms.GunaButton()
         Me.panelHeader = New System.Windows.Forms.Panel()
-        Me.Label11 = New System.Windows.Forms.Label()
+        Me.jam = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.linkDaftar = New System.Windows.Forms.Label()
         Me.home = New System.Windows.Forms.Panel()
@@ -50,12 +56,15 @@ Partial Class dashboard
         Me.Column19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.GunaElipsePanel3 = New Guna.UI.WinForms.GunaElipsePanel()
+        Me.GunaTransfarantPictureBox3 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.GunaElipsePanel2 = New Guna.UI.WinForms.GunaElipsePanel()
+        Me.GunaTransfarantPictureBox2 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
         Me.totalUser = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.GunaElipsePanel1 = New Guna.UI.WinForms.GunaElipsePanel()
+        Me.GunaTransfarantPictureBox1 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
         Me.totalBarang = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtLogin = New System.Windows.Forms.Label()
@@ -76,54 +85,45 @@ Partial Class dashboard
         Me.Column11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Label13 = New System.Windows.Forms.Label()
+        Me.GunaTransfarantPictureBox4 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
         Me.searchUser = New Guna.UI.WinForms.GunaTextBox()
+        Me.crudUser = New Guna.UI.WinForms.GunaButton()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.barang = New System.Windows.Forms.Panel()
+        Me.laporBarang = New Guna.UI.WinForms.GunaButton()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.GunaTransfarantPictureBox5 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
         Me.searchBarang = New Guna.UI.WinForms.GunaTextBox()
+        Me.crudBarang = New Guna.UI.WinForms.GunaButton()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.laporan = New System.Windows.Forms.Panel()
-        Me.Label15 = New System.Windows.Forms.Label()
         Me.btnTahun = New Guna.UI.WinForms.GunaTransfarantPictureBox()
         Me.btnBulan = New Guna.UI.WinForms.GunaTransfarantPictureBox()
         Me.btnHarian = New Guna.UI.WinForms.GunaTransfarantPictureBox()
-        Me.GunaTransfarantPictureBox4 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
-        Me.crudUser = New Guna.UI.WinForms.GunaButton()
-        Me.GunaTransfarantPictureBox3 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
-        Me.GunaTransfarantPictureBox2 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
-        Me.GunaTransfarantPictureBox1 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
-        Me.laporBarang = New Guna.UI.WinForms.GunaButton()
-        Me.GunaTransfarantPictureBox5 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
-        Me.crudBarang = New Guna.UI.WinForms.GunaButton()
+        Me.Label15 = New System.Windows.Forms.Label()
         Me.btnMin = New System.Windows.Forms.PictureBox()
         Me.btnMax = New System.Windows.Forms.PictureBox()
         Me.btnClose = New System.Windows.Forms.PictureBox()
-        Me.btnLogout = New Guna.UI.WinForms.GunaButton()
-        Me.btnLapor = New Guna.UI.WinForms.GunaButton()
-        Me.btnJual = New Guna.UI.WinForms.GunaButton()
-        Me.btnBarang = New Guna.UI.WinForms.GunaButton()
-        Me.btnpengguna = New Guna.UI.WinForms.GunaButton()
-        Me.btnHome = New Guna.UI.WinForms.GunaButton()
         Me.panelSide.SuspendLayout()
         Me.panelHeader.SuspendLayout()
         Me.home.SuspendLayout()
         CType(Me.dgv_barang, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GunaElipsePanel3.SuspendLayout()
+        CType(Me.GunaTransfarantPictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GunaElipsePanel2.SuspendLayout()
+        CType(Me.GunaTransfarantPictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GunaElipsePanel1.SuspendLayout()
+        CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dgvDashboard, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.user.SuspendLayout()
         CType(Me.dgv_user, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GunaTransfarantPictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.barang.SuspendLayout()
+        CType(Me.GunaTransfarantPictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.laporan.SuspendLayout()
         CType(Me.btnTahun, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnBulan, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnHarian, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GunaTransfarantPictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GunaTransfarantPictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GunaTransfarantPictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GunaTransfarantPictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnMin, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnMax, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnClose, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -145,6 +145,151 @@ Partial Class dashboard
         Me.panelSide.Size = New System.Drawing.Size(450, 1080)
         Me.panelSide.TabIndex = 33
         '
+        'btnLogout
+        '
+        Me.btnLogout.Animated = True
+        Me.btnLogout.AnimationHoverSpeed = 0.07!
+        Me.btnLogout.AnimationSpeed = 0.03!
+        Me.btnLogout.BackColor = System.Drawing.Color.Transparent
+        Me.btnLogout.BaseColor = System.Drawing.Color.White
+        Me.btnLogout.BorderColor = System.Drawing.Color.White
+        Me.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnLogout.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnLogout.FocusedColor = System.Drawing.Color.Empty
+        Me.btnLogout.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogout.ForeColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(4, Byte), Integer))
+        Me.btnLogout.Image = CType(resources.GetObject("btnLogout.Image"), System.Drawing.Image)
+        Me.btnLogout.ImageOffsetX = 15
+        Me.btnLogout.ImageSize = New System.Drawing.Size(30, 30)
+        Me.btnLogout.Location = New System.Drawing.Point(54, 749)
+        Me.btnLogout.Name = "btnLogout"
+        Me.btnLogout.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(4, Byte), Integer))
+        Me.btnLogout.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(4, Byte), Integer))
+        Me.btnLogout.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnLogout.OnHoverImage = CType(resources.GetObject("btnLogout.OnHoverImage"), System.Drawing.Image)
+        Me.btnLogout.OnPressedColor = System.Drawing.Color.Black
+        Me.btnLogout.Radius = 10
+        Me.btnLogout.Size = New System.Drawing.Size(300, 70)
+        Me.btnLogout.TabIndex = 42
+        Me.btnLogout.Text = "Logout"
+        Me.btnLogout.TextOffsetX = 20
+        '
+        'btnLapor
+        '
+        Me.btnLapor.Animated = True
+        Me.btnLapor.AnimationHoverSpeed = 0.07!
+        Me.btnLapor.AnimationSpeed = 0.03!
+        Me.btnLapor.BackColor = System.Drawing.Color.Transparent
+        Me.btnLapor.BaseColor = System.Drawing.Color.White
+        Me.btnLapor.BorderColor = System.Drawing.Color.White
+        Me.btnLapor.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnLapor.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnLapor.FocusedColor = System.Drawing.Color.Empty
+        Me.btnLapor.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLapor.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnLapor.Image = CType(resources.GetObject("btnLapor.Image"), System.Drawing.Image)
+        Me.btnLapor.ImageOffsetX = 15
+        Me.btnLapor.ImageSize = New System.Drawing.Size(30, 30)
+        Me.btnLapor.Location = New System.Drawing.Point(54, 641)
+        Me.btnLapor.Name = "btnLapor"
+        Me.btnLapor.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnLapor.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnLapor.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnLapor.OnHoverImage = CType(resources.GetObject("btnLapor.OnHoverImage"), System.Drawing.Image)
+        Me.btnLapor.OnPressedColor = System.Drawing.Color.Black
+        Me.btnLapor.Radius = 10
+        Me.btnLapor.Size = New System.Drawing.Size(300, 70)
+        Me.btnLapor.TabIndex = 41
+        Me.btnLapor.Text = "Laporan"
+        Me.btnLapor.TextOffsetX = 20
+        '
+        'btnJual
+        '
+        Me.btnJual.Animated = True
+        Me.btnJual.AnimationHoverSpeed = 0.07!
+        Me.btnJual.AnimationSpeed = 0.03!
+        Me.btnJual.BackColor = System.Drawing.Color.Transparent
+        Me.btnJual.BaseColor = System.Drawing.Color.White
+        Me.btnJual.BorderColor = System.Drawing.Color.White
+        Me.btnJual.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnJual.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnJual.FocusedColor = System.Drawing.Color.Empty
+        Me.btnJual.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnJual.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnJual.Image = CType(resources.GetObject("btnJual.Image"), System.Drawing.Image)
+        Me.btnJual.ImageOffsetX = 15
+        Me.btnJual.ImageSize = New System.Drawing.Size(30, 30)
+        Me.btnJual.Location = New System.Drawing.Point(54, 533)
+        Me.btnJual.Name = "btnJual"
+        Me.btnJual.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnJual.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnJual.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnJual.OnHoverImage = CType(resources.GetObject("btnJual.OnHoverImage"), System.Drawing.Image)
+        Me.btnJual.OnPressedColor = System.Drawing.Color.Black
+        Me.btnJual.Radius = 10
+        Me.btnJual.Size = New System.Drawing.Size(300, 70)
+        Me.btnJual.TabIndex = 40
+        Me.btnJual.Text = "Penjualan"
+        Me.btnJual.TextOffsetX = 20
+        '
+        'btnBarang
+        '
+        Me.btnBarang.Animated = True
+        Me.btnBarang.AnimationHoverSpeed = 0.07!
+        Me.btnBarang.AnimationSpeed = 0.03!
+        Me.btnBarang.BackColor = System.Drawing.Color.Transparent
+        Me.btnBarang.BaseColor = System.Drawing.Color.White
+        Me.btnBarang.BorderColor = System.Drawing.Color.White
+        Me.btnBarang.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnBarang.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnBarang.FocusedColor = System.Drawing.Color.Empty
+        Me.btnBarang.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBarang.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnBarang.Image = CType(resources.GetObject("btnBarang.Image"), System.Drawing.Image)
+        Me.btnBarang.ImageOffsetX = 15
+        Me.btnBarang.ImageSize = New System.Drawing.Size(30, 30)
+        Me.btnBarang.Location = New System.Drawing.Point(54, 425)
+        Me.btnBarang.Name = "btnBarang"
+        Me.btnBarang.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnBarang.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnBarang.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnBarang.OnHoverImage = CType(resources.GetObject("btnBarang.OnHoverImage"), System.Drawing.Image)
+        Me.btnBarang.OnPressedColor = System.Drawing.Color.Black
+        Me.btnBarang.Radius = 10
+        Me.btnBarang.Size = New System.Drawing.Size(300, 70)
+        Me.btnBarang.TabIndex = 39
+        Me.btnBarang.Text = "Barang"
+        Me.btnBarang.TextOffsetX = 20
+        '
+        'btnpengguna
+        '
+        Me.btnpengguna.Animated = True
+        Me.btnpengguna.AnimationHoverSpeed = 0.07!
+        Me.btnpengguna.AnimationSpeed = 0.03!
+        Me.btnpengguna.BackColor = System.Drawing.Color.Transparent
+        Me.btnpengguna.BaseColor = System.Drawing.Color.White
+        Me.btnpengguna.BorderColor = System.Drawing.Color.White
+        Me.btnpengguna.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnpengguna.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnpengguna.FocusedColor = System.Drawing.Color.Empty
+        Me.btnpengguna.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnpengguna.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnpengguna.Image = CType(resources.GetObject("btnpengguna.Image"), System.Drawing.Image)
+        Me.btnpengguna.ImageOffsetX = 15
+        Me.btnpengguna.ImageSize = New System.Drawing.Size(30, 30)
+        Me.btnpengguna.Location = New System.Drawing.Point(54, 317)
+        Me.btnpengguna.Name = "btnpengguna"
+        Me.btnpengguna.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnpengguna.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnpengguna.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnpengguna.OnHoverImage = CType(resources.GetObject("btnpengguna.OnHoverImage"), System.Drawing.Image)
+        Me.btnpengguna.OnPressedColor = System.Drawing.Color.Black
+        Me.btnpengguna.Radius = 10
+        Me.btnpengguna.Size = New System.Drawing.Size(300, 70)
+        Me.btnpengguna.TabIndex = 38
+        Me.btnpengguna.Text = "Pengguna"
+        Me.btnpengguna.TextOffsetX = 20
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -156,26 +301,55 @@ Partial Class dashboard
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "LOGO"
         '
+        'btnHome
+        '
+        Me.btnHome.Animated = True
+        Me.btnHome.AnimationHoverSpeed = 0.07!
+        Me.btnHome.AnimationSpeed = 0.03!
+        Me.btnHome.BackColor = System.Drawing.Color.Transparent
+        Me.btnHome.BaseColor = System.Drawing.Color.White
+        Me.btnHome.BorderColor = System.Drawing.Color.White
+        Me.btnHome.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnHome.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnHome.FocusedColor = System.Drawing.Color.Empty
+        Me.btnHome.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnHome.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnHome.Image = CType(resources.GetObject("btnHome.Image"), System.Drawing.Image)
+        Me.btnHome.ImageOffsetX = 15
+        Me.btnHome.ImageSize = New System.Drawing.Size(30, 30)
+        Me.btnHome.Location = New System.Drawing.Point(54, 209)
+        Me.btnHome.Name = "btnHome"
+        Me.btnHome.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnHome.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.btnHome.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnHome.OnHoverImage = Global.WindowsApplication1.My.Resources.Resources.dashboard2
+        Me.btnHome.OnPressedColor = System.Drawing.Color.Black
+        Me.btnHome.Radius = 10
+        Me.btnHome.Size = New System.Drawing.Size(300, 70)
+        Me.btnHome.TabIndex = 37
+        Me.btnHome.Text = "Dashboard"
+        Me.btnHome.TextOffsetX = 20
+        '
         'panelHeader
         '
         Me.panelHeader.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(194, Byte), Integer))
-        Me.panelHeader.Controls.Add(Me.Label11)
+        Me.panelHeader.Controls.Add(Me.jam)
         Me.panelHeader.Dock = System.Windows.Forms.DockStyle.Top
         Me.panelHeader.Location = New System.Drawing.Point(450, 0)
         Me.panelHeader.Name = "panelHeader"
         Me.panelHeader.Size = New System.Drawing.Size(1470, 60)
         Me.panelHeader.TabIndex = 51
         '
-        'Label11
+        'jam
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Poppins", 13.74545!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(703, 15)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(107, 37)
-        Me.Label11.TabIndex = 44
-        Me.Label11.Text = "12.45 PM"
+        Me.jam.AutoSize = True
+        Me.jam.Font = New System.Drawing.Font("Poppins", 13.74545!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.jam.ForeColor = System.Drawing.Color.Black
+        Me.jam.Location = New System.Drawing.Point(665, 15)
+        Me.jam.Name = "jam"
+        Me.jam.Size = New System.Drawing.Size(107, 37)
+        Me.jam.TabIndex = 44
+        Me.jam.Text = "12.45 PM"
         '
         'Label6
         '
@@ -346,6 +520,17 @@ Partial Class dashboard
         Me.GunaElipsePanel3.Size = New System.Drawing.Size(364, 211)
         Me.GunaElipsePanel3.TabIndex = 42
         '
+        'GunaTransfarantPictureBox3
+        '
+        Me.GunaTransfarantPictureBox3.BaseColor = System.Drawing.Color.Black
+        Me.GunaTransfarantPictureBox3.Image = CType(resources.GetObject("GunaTransfarantPictureBox3.Image"), System.Drawing.Image)
+        Me.GunaTransfarantPictureBox3.Location = New System.Drawing.Point(214, 75)
+        Me.GunaTransfarantPictureBox3.Name = "GunaTransfarantPictureBox3"
+        Me.GunaTransfarantPictureBox3.Size = New System.Drawing.Size(100, 100)
+        Me.GunaTransfarantPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.GunaTransfarantPictureBox3.TabIndex = 41
+        Me.GunaTransfarantPictureBox3.TabStop = False
+        '
         'Label8
         '
         Me.Label8.Font = New System.Drawing.Font("Poppins SemiBold", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -381,6 +566,17 @@ Partial Class dashboard
         Me.GunaElipsePanel2.Size = New System.Drawing.Size(364, 211)
         Me.GunaElipsePanel2.TabIndex = 39
         '
+        'GunaTransfarantPictureBox2
+        '
+        Me.GunaTransfarantPictureBox2.BaseColor = System.Drawing.Color.Black
+        Me.GunaTransfarantPictureBox2.Image = CType(resources.GetObject("GunaTransfarantPictureBox2.Image"), System.Drawing.Image)
+        Me.GunaTransfarantPictureBox2.Location = New System.Drawing.Point(214, 75)
+        Me.GunaTransfarantPictureBox2.Name = "GunaTransfarantPictureBox2"
+        Me.GunaTransfarantPictureBox2.Size = New System.Drawing.Size(100, 100)
+        Me.GunaTransfarantPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.GunaTransfarantPictureBox2.TabIndex = 41
+        Me.GunaTransfarantPictureBox2.TabStop = False
+        '
         'totalUser
         '
         Me.totalUser.Font = New System.Drawing.Font("Poppins SemiBold", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -415,6 +611,17 @@ Partial Class dashboard
         Me.GunaElipsePanel1.Radius = 10
         Me.GunaElipsePanel1.Size = New System.Drawing.Size(364, 211)
         Me.GunaElipsePanel1.TabIndex = 38
+        '
+        'GunaTransfarantPictureBox1
+        '
+        Me.GunaTransfarantPictureBox1.BaseColor = System.Drawing.Color.Black
+        Me.GunaTransfarantPictureBox1.Image = CType(resources.GetObject("GunaTransfarantPictureBox1.Image"), System.Drawing.Image)
+        Me.GunaTransfarantPictureBox1.Location = New System.Drawing.Point(214, 75)
+        Me.GunaTransfarantPictureBox1.Name = "GunaTransfarantPictureBox1"
+        Me.GunaTransfarantPictureBox1.Size = New System.Drawing.Size(100, 100)
+        Me.GunaTransfarantPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.GunaTransfarantPictureBox1.TabIndex = 41
+        Me.GunaTransfarantPictureBox1.TabStop = False
         '
         'totalBarang
         '
@@ -661,6 +868,18 @@ Partial Class dashboard
         Me.Label13.TabIndex = 44
         Me.Label13.Text = "Tabel Pengguna"
         '
+        'GunaTransfarantPictureBox4
+        '
+        Me.GunaTransfarantPictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.GunaTransfarantPictureBox4.BaseColor = System.Drawing.Color.Black
+        Me.GunaTransfarantPictureBox4.Image = CType(resources.GetObject("GunaTransfarantPictureBox4.Image"), System.Drawing.Image)
+        Me.GunaTransfarantPictureBox4.Location = New System.Drawing.Point(320, 189)
+        Me.GunaTransfarantPictureBox4.Name = "GunaTransfarantPictureBox4"
+        Me.GunaTransfarantPictureBox4.Size = New System.Drawing.Size(30, 30)
+        Me.GunaTransfarantPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.GunaTransfarantPictureBox4.TabIndex = 41
+        Me.GunaTransfarantPictureBox4.TabStop = False
+        '
         'searchUser
         '
         Me.searchUser.BackColor = System.Drawing.Color.Transparent
@@ -680,6 +899,34 @@ Partial Class dashboard
         Me.searchUser.Size = New System.Drawing.Size(1116, 60)
         Me.searchUser.TabIndex = 40
         Me.searchUser.TextOffsetX = 60
+        '
+        'crudUser
+        '
+        Me.crudUser.Animated = True
+        Me.crudUser.AnimationHoverSpeed = 0.07!
+        Me.crudUser.AnimationSpeed = 0.03!
+        Me.crudUser.BackColor = System.Drawing.Color.Transparent
+        Me.crudUser.BaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.crudUser.BorderColor = System.Drawing.Color.White
+        Me.crudUser.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.crudUser.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.crudUser.FocusedColor = System.Drawing.Color.Empty
+        Me.crudUser.Font = New System.Drawing.Font("Poppins", 9.818182!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.crudUser.ForeColor = System.Drawing.Color.White
+        Me.crudUser.Image = CType(resources.GetObject("crudUser.Image"), System.Drawing.Image)
+        Me.crudUser.ImageOffsetX = 10
+        Me.crudUser.ImageSize = New System.Drawing.Size(30, 30)
+        Me.crudUser.Location = New System.Drawing.Point(56, 175)
+        Me.crudUser.Name = "crudUser"
+        Me.crudUser.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.crudUser.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.crudUser.OnHoverForeColor = System.Drawing.Color.White
+        Me.crudUser.OnHoverImage = Nothing
+        Me.crudUser.OnPressedColor = System.Drawing.Color.Black
+        Me.crudUser.Radius = 10
+        Me.crudUser.Size = New System.Drawing.Size(207, 60)
+        Me.crudUser.TabIndex = 39
+        Me.crudUser.Text = "CRUD Pengguna"
         '
         'Label12
         '
@@ -707,6 +954,35 @@ Partial Class dashboard
         Me.barang.Size = New System.Drawing.Size(1470, 1020)
         Me.barang.TabIndex = 78
         '
+        'laporBarang
+        '
+        Me.laporBarang.Animated = True
+        Me.laporBarang.AnimationHoverSpeed = 0.07!
+        Me.laporBarang.AnimationSpeed = 0.03!
+        Me.laporBarang.BackColor = System.Drawing.Color.Transparent
+        Me.laporBarang.BaseColor = System.Drawing.Color.White
+        Me.laporBarang.BorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.laporBarang.BorderSize = 2
+        Me.laporBarang.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.laporBarang.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.laporBarang.FocusedColor = System.Drawing.Color.Empty
+        Me.laporBarang.Font = New System.Drawing.Font("Poppins", 9.818182!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.laporBarang.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.laporBarang.Image = CType(resources.GetObject("laporBarang.Image"), System.Drawing.Image)
+        Me.laporBarang.ImageOffsetX = 10
+        Me.laporBarang.ImageSize = New System.Drawing.Size(30, 30)
+        Me.laporBarang.Location = New System.Drawing.Point(311, 175)
+        Me.laporBarang.Name = "laporBarang"
+        Me.laporBarang.OnHoverBaseColor = System.Drawing.Color.White
+        Me.laporBarang.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.laporBarang.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.laporBarang.OnHoverImage = Nothing
+        Me.laporBarang.OnPressedColor = System.Drawing.Color.Black
+        Me.laporBarang.Radius = 10
+        Me.laporBarang.Size = New System.Drawing.Size(207, 60)
+        Me.laporBarang.TabIndex = 78
+        Me.laporBarang.Text = "Buat Laporan"
+        '
         'Label4
         '
         Me.Label4.AutoSize = True
@@ -717,6 +993,18 @@ Partial Class dashboard
         Me.Label4.Size = New System.Drawing.Size(214, 50)
         Me.Label4.TabIndex = 44
         Me.Label4.Text = "Tabel Barang"
+        '
+        'GunaTransfarantPictureBox5
+        '
+        Me.GunaTransfarantPictureBox5.BackColor = System.Drawing.Color.Transparent
+        Me.GunaTransfarantPictureBox5.BaseColor = System.Drawing.Color.Black
+        Me.GunaTransfarantPictureBox5.Image = CType(resources.GetObject("GunaTransfarantPictureBox5.Image"), System.Drawing.Image)
+        Me.GunaTransfarantPictureBox5.Location = New System.Drawing.Point(585, 189)
+        Me.GunaTransfarantPictureBox5.Name = "GunaTransfarantPictureBox5"
+        Me.GunaTransfarantPictureBox5.Size = New System.Drawing.Size(30, 30)
+        Me.GunaTransfarantPictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.GunaTransfarantPictureBox5.TabIndex = 41
+        Me.GunaTransfarantPictureBox5.TabStop = False
         '
         'searchBarang
         '
@@ -737,6 +1025,34 @@ Partial Class dashboard
         Me.searchBarang.Size = New System.Drawing.Size(846, 60)
         Me.searchBarang.TabIndex = 40
         Me.searchBarang.TextOffsetX = 60
+        '
+        'crudBarang
+        '
+        Me.crudBarang.Animated = True
+        Me.crudBarang.AnimationHoverSpeed = 0.07!
+        Me.crudBarang.AnimationSpeed = 0.03!
+        Me.crudBarang.BackColor = System.Drawing.Color.Transparent
+        Me.crudBarang.BaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.crudBarang.BorderColor = System.Drawing.Color.White
+        Me.crudBarang.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.crudBarang.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.crudBarang.FocusedColor = System.Drawing.Color.Empty
+        Me.crudBarang.Font = New System.Drawing.Font("Poppins", 9.818182!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.crudBarang.ForeColor = System.Drawing.Color.White
+        Me.crudBarang.Image = CType(resources.GetObject("crudBarang.Image"), System.Drawing.Image)
+        Me.crudBarang.ImageOffsetX = 10
+        Me.crudBarang.ImageSize = New System.Drawing.Size(30, 30)
+        Me.crudBarang.Location = New System.Drawing.Point(56, 175)
+        Me.crudBarang.Name = "crudBarang"
+        Me.crudBarang.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.crudBarang.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.crudBarang.OnHoverForeColor = System.Drawing.Color.White
+        Me.crudBarang.OnHoverImage = Nothing
+        Me.crudBarang.OnPressedColor = System.Drawing.Color.Black
+        Me.crudBarang.Radius = 10
+        Me.crudBarang.Size = New System.Drawing.Size(207, 60)
+        Me.crudBarang.TabIndex = 39
+        Me.crudBarang.Text = "Tambah Barang"
         '
         'Label5
         '
@@ -760,17 +1076,6 @@ Partial Class dashboard
         Me.laporan.Name = "laporan"
         Me.laporan.Size = New System.Drawing.Size(1470, 1020)
         Me.laporan.TabIndex = 78
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Poppins", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.Label15.Location = New System.Drawing.Point(40, 40)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(273, 96)
-        Me.Label15.TabIndex = 37
-        Me.Label15.Text = "Laporan"
         '
         'btnTahun
         '
@@ -811,147 +1116,16 @@ Partial Class dashboard
         Me.btnHarian.TabIndex = 38
         Me.btnHarian.TabStop = False
         '
-        'GunaTransfarantPictureBox4
+        'Label15
         '
-        Me.GunaTransfarantPictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.GunaTransfarantPictureBox4.BaseColor = System.Drawing.Color.Black
-        Me.GunaTransfarantPictureBox4.Image = CType(resources.GetObject("GunaTransfarantPictureBox4.Image"), System.Drawing.Image)
-        Me.GunaTransfarantPictureBox4.Location = New System.Drawing.Point(320, 189)
-        Me.GunaTransfarantPictureBox4.Name = "GunaTransfarantPictureBox4"
-        Me.GunaTransfarantPictureBox4.Size = New System.Drawing.Size(30, 30)
-        Me.GunaTransfarantPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaTransfarantPictureBox4.TabIndex = 41
-        Me.GunaTransfarantPictureBox4.TabStop = False
-        '
-        'crudUser
-        '
-        Me.crudUser.Animated = True
-        Me.crudUser.AnimationHoverSpeed = 0.07!
-        Me.crudUser.AnimationSpeed = 0.03!
-        Me.crudUser.BackColor = System.Drawing.Color.Transparent
-        Me.crudUser.BaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.crudUser.BorderColor = System.Drawing.Color.White
-        Me.crudUser.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.crudUser.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.crudUser.FocusedColor = System.Drawing.Color.Empty
-        Me.crudUser.Font = New System.Drawing.Font("Poppins", 9.818182!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.crudUser.ForeColor = System.Drawing.Color.White
-        Me.crudUser.Image = CType(resources.GetObject("crudUser.Image"), System.Drawing.Image)
-        Me.crudUser.ImageOffsetX = 10
-        Me.crudUser.ImageSize = New System.Drawing.Size(30, 30)
-        Me.crudUser.Location = New System.Drawing.Point(56, 175)
-        Me.crudUser.Name = "crudUser"
-        Me.crudUser.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.crudUser.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.crudUser.OnHoverForeColor = System.Drawing.Color.White
-        Me.crudUser.OnHoverImage = Nothing
-        Me.crudUser.OnPressedColor = System.Drawing.Color.Black
-        Me.crudUser.Radius = 10
-        Me.crudUser.Size = New System.Drawing.Size(207, 60)
-        Me.crudUser.TabIndex = 39
-        Me.crudUser.Text = "CRUD Pengguna"
-        '
-        'GunaTransfarantPictureBox3
-        '
-        Me.GunaTransfarantPictureBox3.BaseColor = System.Drawing.Color.Black
-        Me.GunaTransfarantPictureBox3.Image = CType(resources.GetObject("GunaTransfarantPictureBox3.Image"), System.Drawing.Image)
-        Me.GunaTransfarantPictureBox3.Location = New System.Drawing.Point(214, 75)
-        Me.GunaTransfarantPictureBox3.Name = "GunaTransfarantPictureBox3"
-        Me.GunaTransfarantPictureBox3.Size = New System.Drawing.Size(100, 100)
-        Me.GunaTransfarantPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaTransfarantPictureBox3.TabIndex = 41
-        Me.GunaTransfarantPictureBox3.TabStop = False
-        '
-        'GunaTransfarantPictureBox2
-        '
-        Me.GunaTransfarantPictureBox2.BaseColor = System.Drawing.Color.Black
-        Me.GunaTransfarantPictureBox2.Image = CType(resources.GetObject("GunaTransfarantPictureBox2.Image"), System.Drawing.Image)
-        Me.GunaTransfarantPictureBox2.Location = New System.Drawing.Point(214, 75)
-        Me.GunaTransfarantPictureBox2.Name = "GunaTransfarantPictureBox2"
-        Me.GunaTransfarantPictureBox2.Size = New System.Drawing.Size(100, 100)
-        Me.GunaTransfarantPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaTransfarantPictureBox2.TabIndex = 41
-        Me.GunaTransfarantPictureBox2.TabStop = False
-        '
-        'GunaTransfarantPictureBox1
-        '
-        Me.GunaTransfarantPictureBox1.BaseColor = System.Drawing.Color.Black
-        Me.GunaTransfarantPictureBox1.Image = CType(resources.GetObject("GunaTransfarantPictureBox1.Image"), System.Drawing.Image)
-        Me.GunaTransfarantPictureBox1.Location = New System.Drawing.Point(214, 75)
-        Me.GunaTransfarantPictureBox1.Name = "GunaTransfarantPictureBox1"
-        Me.GunaTransfarantPictureBox1.Size = New System.Drawing.Size(100, 100)
-        Me.GunaTransfarantPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaTransfarantPictureBox1.TabIndex = 41
-        Me.GunaTransfarantPictureBox1.TabStop = False
-        '
-        'laporBarang
-        '
-        Me.laporBarang.Animated = True
-        Me.laporBarang.AnimationHoverSpeed = 0.07!
-        Me.laporBarang.AnimationSpeed = 0.03!
-        Me.laporBarang.BackColor = System.Drawing.Color.Transparent
-        Me.laporBarang.BaseColor = System.Drawing.Color.White
-        Me.laporBarang.BorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.laporBarang.BorderSize = 2
-        Me.laporBarang.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.laporBarang.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.laporBarang.FocusedColor = System.Drawing.Color.Empty
-        Me.laporBarang.Font = New System.Drawing.Font("Poppins", 9.818182!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.laporBarang.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.laporBarang.Image = CType(resources.GetObject("laporBarang.Image"), System.Drawing.Image)
-        Me.laporBarang.ImageOffsetX = 10
-        Me.laporBarang.ImageSize = New System.Drawing.Size(30, 30)
-        Me.laporBarang.Location = New System.Drawing.Point(311, 175)
-        Me.laporBarang.Name = "laporBarang"
-        Me.laporBarang.OnHoverBaseColor = System.Drawing.Color.White
-        Me.laporBarang.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.laporBarang.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.laporBarang.OnHoverImage = Nothing
-        Me.laporBarang.OnPressedColor = System.Drawing.Color.Black
-        Me.laporBarang.Radius = 10
-        Me.laporBarang.Size = New System.Drawing.Size(207, 60)
-        Me.laporBarang.TabIndex = 78
-        Me.laporBarang.Text = "Buat Laporan"
-        '
-        'GunaTransfarantPictureBox5
-        '
-        Me.GunaTransfarantPictureBox5.BackColor = System.Drawing.Color.Transparent
-        Me.GunaTransfarantPictureBox5.BaseColor = System.Drawing.Color.Black
-        Me.GunaTransfarantPictureBox5.Image = CType(resources.GetObject("GunaTransfarantPictureBox5.Image"), System.Drawing.Image)
-        Me.GunaTransfarantPictureBox5.Location = New System.Drawing.Point(585, 189)
-        Me.GunaTransfarantPictureBox5.Name = "GunaTransfarantPictureBox5"
-        Me.GunaTransfarantPictureBox5.Size = New System.Drawing.Size(30, 30)
-        Me.GunaTransfarantPictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaTransfarantPictureBox5.TabIndex = 41
-        Me.GunaTransfarantPictureBox5.TabStop = False
-        '
-        'crudBarang
-        '
-        Me.crudBarang.Animated = True
-        Me.crudBarang.AnimationHoverSpeed = 0.07!
-        Me.crudBarang.AnimationSpeed = 0.03!
-        Me.crudBarang.BackColor = System.Drawing.Color.Transparent
-        Me.crudBarang.BaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.crudBarang.BorderColor = System.Drawing.Color.White
-        Me.crudBarang.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.crudBarang.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.crudBarang.FocusedColor = System.Drawing.Color.Empty
-        Me.crudBarang.Font = New System.Drawing.Font("Poppins", 9.818182!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.crudBarang.ForeColor = System.Drawing.Color.White
-        Me.crudBarang.Image = CType(resources.GetObject("crudBarang.Image"), System.Drawing.Image)
-        Me.crudBarang.ImageOffsetX = 10
-        Me.crudBarang.ImageSize = New System.Drawing.Size(30, 30)
-        Me.crudBarang.Location = New System.Drawing.Point(56, 175)
-        Me.crudBarang.Name = "crudBarang"
-        Me.crudBarang.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.crudBarang.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.crudBarang.OnHoverForeColor = System.Drawing.Color.White
-        Me.crudBarang.OnHoverImage = Nothing
-        Me.crudBarang.OnPressedColor = System.Drawing.Color.Black
-        Me.crudBarang.Radius = 10
-        Me.crudBarang.Size = New System.Drawing.Size(207, 60)
-        Me.crudBarang.TabIndex = 39
-        Me.crudBarang.Text = "Tambah Barang"
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Poppins", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.Label15.Location = New System.Drawing.Point(40, 40)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(273, 96)
+        Me.Label15.TabIndex = 37
+        Me.Label15.Text = "Laporan"
         '
         'btnMin
         '
@@ -986,189 +1160,15 @@ Partial Class dashboard
         Me.btnClose.TabIndex = 42
         Me.btnClose.TabStop = False
         '
-        'btnLogout
-        '
-        Me.btnLogout.Animated = True
-        Me.btnLogout.AnimationHoverSpeed = 0.07!
-        Me.btnLogout.AnimationSpeed = 0.03!
-        Me.btnLogout.BackColor = System.Drawing.Color.Transparent
-        Me.btnLogout.BaseColor = System.Drawing.Color.White
-        Me.btnLogout.BorderColor = System.Drawing.Color.White
-        Me.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnLogout.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.btnLogout.FocusedColor = System.Drawing.Color.Empty
-        Me.btnLogout.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogout.ForeColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(4, Byte), Integer))
-        Me.btnLogout.Image = CType(resources.GetObject("btnLogout.Image"), System.Drawing.Image)
-        Me.btnLogout.ImageOffsetX = 15
-        Me.btnLogout.ImageSize = New System.Drawing.Size(30, 30)
-        Me.btnLogout.Location = New System.Drawing.Point(54, 749)
-        Me.btnLogout.Name = "btnLogout"
-        Me.btnLogout.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(4, Byte), Integer))
-        Me.btnLogout.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(4, Byte), Integer))
-        Me.btnLogout.OnHoverForeColor = System.Drawing.Color.White
-        Me.btnLogout.OnHoverImage = CType(resources.GetObject("btnLogout.OnHoverImage"), System.Drawing.Image)
-        Me.btnLogout.OnPressedColor = System.Drawing.Color.Black
-        Me.btnLogout.Radius = 10
-        Me.btnLogout.Size = New System.Drawing.Size(300, 70)
-        Me.btnLogout.TabIndex = 42
-        Me.btnLogout.Text = "Logout"
-        Me.btnLogout.TextOffsetX = 20
-        '
-        'btnLapor
-        '
-        Me.btnLapor.Animated = True
-        Me.btnLapor.AnimationHoverSpeed = 0.07!
-        Me.btnLapor.AnimationSpeed = 0.03!
-        Me.btnLapor.BackColor = System.Drawing.Color.Transparent
-        Me.btnLapor.BaseColor = System.Drawing.Color.White
-        Me.btnLapor.BorderColor = System.Drawing.Color.White
-        Me.btnLapor.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnLapor.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.btnLapor.FocusedColor = System.Drawing.Color.Empty
-        Me.btnLapor.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLapor.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnLapor.Image = CType(resources.GetObject("btnLapor.Image"), System.Drawing.Image)
-        Me.btnLapor.ImageOffsetX = 15
-        Me.btnLapor.ImageSize = New System.Drawing.Size(30, 30)
-        Me.btnLapor.Location = New System.Drawing.Point(54, 641)
-        Me.btnLapor.Name = "btnLapor"
-        Me.btnLapor.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnLapor.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnLapor.OnHoverForeColor = System.Drawing.Color.White
-        Me.btnLapor.OnHoverImage = CType(resources.GetObject("btnLapor.OnHoverImage"), System.Drawing.Image)
-        Me.btnLapor.OnPressedColor = System.Drawing.Color.Black
-        Me.btnLapor.Radius = 10
-        Me.btnLapor.Size = New System.Drawing.Size(300, 70)
-        Me.btnLapor.TabIndex = 41
-        Me.btnLapor.Text = "Laporan"
-        Me.btnLapor.TextOffsetX = 20
-        '
-        'btnJual
-        '
-        Me.btnJual.Animated = True
-        Me.btnJual.AnimationHoverSpeed = 0.07!
-        Me.btnJual.AnimationSpeed = 0.03!
-        Me.btnJual.BackColor = System.Drawing.Color.Transparent
-        Me.btnJual.BaseColor = System.Drawing.Color.White
-        Me.btnJual.BorderColor = System.Drawing.Color.White
-        Me.btnJual.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnJual.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.btnJual.FocusedColor = System.Drawing.Color.Empty
-        Me.btnJual.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnJual.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnJual.Image = CType(resources.GetObject("btnJual.Image"), System.Drawing.Image)
-        Me.btnJual.ImageOffsetX = 15
-        Me.btnJual.ImageSize = New System.Drawing.Size(30, 30)
-        Me.btnJual.Location = New System.Drawing.Point(54, 533)
-        Me.btnJual.Name = "btnJual"
-        Me.btnJual.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnJual.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnJual.OnHoverForeColor = System.Drawing.Color.White
-        Me.btnJual.OnHoverImage = CType(resources.GetObject("btnJual.OnHoverImage"), System.Drawing.Image)
-        Me.btnJual.OnPressedColor = System.Drawing.Color.Black
-        Me.btnJual.Radius = 10
-        Me.btnJual.Size = New System.Drawing.Size(300, 70)
-        Me.btnJual.TabIndex = 40
-        Me.btnJual.Text = "Penjualan"
-        Me.btnJual.TextOffsetX = 20
-        '
-        'btnBarang
-        '
-        Me.btnBarang.Animated = True
-        Me.btnBarang.AnimationHoverSpeed = 0.07!
-        Me.btnBarang.AnimationSpeed = 0.03!
-        Me.btnBarang.BackColor = System.Drawing.Color.Transparent
-        Me.btnBarang.BaseColor = System.Drawing.Color.White
-        Me.btnBarang.BorderColor = System.Drawing.Color.White
-        Me.btnBarang.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnBarang.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.btnBarang.FocusedColor = System.Drawing.Color.Empty
-        Me.btnBarang.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBarang.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnBarang.Image = CType(resources.GetObject("btnBarang.Image"), System.Drawing.Image)
-        Me.btnBarang.ImageOffsetX = 15
-        Me.btnBarang.ImageSize = New System.Drawing.Size(30, 30)
-        Me.btnBarang.Location = New System.Drawing.Point(54, 425)
-        Me.btnBarang.Name = "btnBarang"
-        Me.btnBarang.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnBarang.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnBarang.OnHoverForeColor = System.Drawing.Color.White
-        Me.btnBarang.OnHoverImage = CType(resources.GetObject("btnBarang.OnHoverImage"), System.Drawing.Image)
-        Me.btnBarang.OnPressedColor = System.Drawing.Color.Black
-        Me.btnBarang.Radius = 10
-        Me.btnBarang.Size = New System.Drawing.Size(300, 70)
-        Me.btnBarang.TabIndex = 39
-        Me.btnBarang.Text = "Barang"
-        Me.btnBarang.TextOffsetX = 20
-        '
-        'btnpengguna
-        '
-        Me.btnpengguna.Animated = True
-        Me.btnpengguna.AnimationHoverSpeed = 0.07!
-        Me.btnpengguna.AnimationSpeed = 0.03!
-        Me.btnpengguna.BackColor = System.Drawing.Color.Transparent
-        Me.btnpengguna.BaseColor = System.Drawing.Color.White
-        Me.btnpengguna.BorderColor = System.Drawing.Color.White
-        Me.btnpengguna.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnpengguna.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.btnpengguna.FocusedColor = System.Drawing.Color.Empty
-        Me.btnpengguna.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnpengguna.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnpengguna.Image = CType(resources.GetObject("btnpengguna.Image"), System.Drawing.Image)
-        Me.btnpengguna.ImageOffsetX = 15
-        Me.btnpengguna.ImageSize = New System.Drawing.Size(30, 30)
-        Me.btnpengguna.Location = New System.Drawing.Point(54, 317)
-        Me.btnpengguna.Name = "btnpengguna"
-        Me.btnpengguna.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnpengguna.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnpengguna.OnHoverForeColor = System.Drawing.Color.White
-        Me.btnpengguna.OnHoverImage = CType(resources.GetObject("btnpengguna.OnHoverImage"), System.Drawing.Image)
-        Me.btnpengguna.OnPressedColor = System.Drawing.Color.Black
-        Me.btnpengguna.Radius = 10
-        Me.btnpengguna.Size = New System.Drawing.Size(300, 70)
-        Me.btnpengguna.TabIndex = 38
-        Me.btnpengguna.Text = "Pengguna"
-        Me.btnpengguna.TextOffsetX = 20
-        '
-        'btnHome
-        '
-        Me.btnHome.Animated = True
-        Me.btnHome.AnimationHoverSpeed = 0.07!
-        Me.btnHome.AnimationSpeed = 0.03!
-        Me.btnHome.BackColor = System.Drawing.Color.Transparent
-        Me.btnHome.BaseColor = System.Drawing.Color.White
-        Me.btnHome.BorderColor = System.Drawing.Color.White
-        Me.btnHome.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnHome.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.btnHome.FocusedColor = System.Drawing.Color.Empty
-        Me.btnHome.Font = New System.Drawing.Font("Poppins", 15.70909!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnHome.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnHome.Image = CType(resources.GetObject("btnHome.Image"), System.Drawing.Image)
-        Me.btnHome.ImageOffsetX = 15
-        Me.btnHome.ImageSize = New System.Drawing.Size(30, 30)
-        Me.btnHome.Location = New System.Drawing.Point(54, 209)
-        Me.btnHome.Name = "btnHome"
-        Me.btnHome.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnHome.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.btnHome.OnHoverForeColor = System.Drawing.Color.White
-        Me.btnHome.OnHoverImage = Global.WindowsApplication1.My.Resources.Resources.dashboard2
-        Me.btnHome.OnPressedColor = System.Drawing.Color.Black
-        Me.btnHome.Radius = 10
-        Me.btnHome.Size = New System.Drawing.Size(300, 70)
-        Me.btnHome.TabIndex = 37
-        Me.btnHome.Text = "Dashboard"
-        Me.btnHome.TextOffsetX = 20
-        '
         'dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1920, 1080)
+        Me.Controls.Add(Me.home)
         Me.Controls.Add(Me.laporan)
         Me.Controls.Add(Me.user)
-        Me.Controls.Add(Me.home)
         Me.Controls.Add(Me.barang)
         Me.Controls.Add(Me.btnMin)
         Me.Controls.Add(Me.btnMax)
@@ -1190,24 +1190,24 @@ Partial Class dashboard
         Me.home.PerformLayout()
         CType(Me.dgv_barang, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GunaElipsePanel3.ResumeLayout(False)
+        CType(Me.GunaTransfarantPictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GunaElipsePanel2.ResumeLayout(False)
+        CType(Me.GunaTransfarantPictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GunaElipsePanel1.ResumeLayout(False)
+        CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dgvDashboard, System.ComponentModel.ISupportInitialize).EndInit()
         Me.user.ResumeLayout(False)
         Me.user.PerformLayout()
         CType(Me.dgv_user, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GunaTransfarantPictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.barang.ResumeLayout(False)
         Me.barang.PerformLayout()
+        CType(Me.GunaTransfarantPictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.laporan.ResumeLayout(False)
         Me.laporan.PerformLayout()
         CType(Me.btnTahun, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnBulan, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnHarian, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GunaTransfarantPictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GunaTransfarantPictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GunaTransfarantPictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GunaTransfarantPictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnMin, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnMax, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnClose, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1246,7 +1246,7 @@ Partial Class dashboard
     Friend WithEvents totalBarang As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents dgvDashboard As Guna.UI.WinForms.GunaDataGridView
-    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents jam As System.Windows.Forms.Label
     Friend WithEvents user As System.Windows.Forms.Panel
     Friend WithEvents dgv_user As Guna.UI.WinForms.GunaDataGridView
     Friend WithEvents Label13 As System.Windows.Forms.Label

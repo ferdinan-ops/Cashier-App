@@ -25,7 +25,10 @@ Partial Class laporan_bulanan
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(laporan_bulanan))
         Me.panelHeader = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
+        Me.btnMin = New System.Windows.Forms.PictureBox()
+        Me.btnMax = New System.Windows.Forms.PictureBox()
+        Me.btnClose = New System.Windows.Forms.PictureBox()
+        Me.jam = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.btnEkspor = New Guna.UI.WinForms.GunaButton()
         Me.btnPrint = New Guna.UI.WinForms.GunaButton()
@@ -35,9 +38,6 @@ Partial Class laporan_bulanan
         Me.ComboBox1 = New Guna.UI.WinForms.GunaComboBox()
         Me.ComboBox2 = New Guna.UI.WinForms.GunaComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.btnMin = New System.Windows.Forms.PictureBox()
-        Me.btnMax = New System.Windows.Forms.PictureBox()
-        Me.btnClose = New System.Windows.Forms.PictureBox()
         Me.panelHeader.SuspendLayout()
         CType(Me.btnMin, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnMax, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -51,7 +51,7 @@ Partial Class laporan_bulanan
         Me.panelHeader.Controls.Add(Me.btnMin)
         Me.panelHeader.Controls.Add(Me.btnMax)
         Me.panelHeader.Controls.Add(Me.btnClose)
-        Me.panelHeader.Controls.Add(Me.Label11)
+        Me.panelHeader.Controls.Add(Me.jam)
         Me.panelHeader.Dock = System.Windows.Forms.DockStyle.Top
         Me.panelHeader.Location = New System.Drawing.Point(0, 0)
         Me.panelHeader.Name = "panelHeader"
@@ -69,16 +69,49 @@ Partial Class laporan_bulanan
         Me.Label1.Text = "LOGO"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label11
+        'btnMin
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Poppins", 13.74545!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(703, 15)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(107, 37)
-        Me.Label11.TabIndex = 44
-        Me.Label11.Text = "12.45 PM"
+        Me.btnMin.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(194, Byte), Integer))
+        Me.btnMin.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnMin.Image = CType(resources.GetObject("btnMin.Image"), System.Drawing.Image)
+        Me.btnMin.Location = New System.Drawing.Point(1799, 20)
+        Me.btnMin.Name = "btnMin"
+        Me.btnMin.Size = New System.Drawing.Size(20, 20)
+        Me.btnMin.TabIndex = 47
+        Me.btnMin.TabStop = False
+        '
+        'btnMax
+        '
+        Me.btnMax.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(194, Byte), Integer))
+        Me.btnMax.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnMax.Image = CType(resources.GetObject("btnMax.Image"), System.Drawing.Image)
+        Me.btnMax.Location = New System.Drawing.Point(1839, 20)
+        Me.btnMax.Name = "btnMax"
+        Me.btnMax.Size = New System.Drawing.Size(20, 20)
+        Me.btnMax.TabIndex = 46
+        Me.btnMax.TabStop = False
+        '
+        'btnClose
+        '
+        Me.btnClose.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(194, Byte), Integer))
+        Me.btnClose.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnClose.Image = CType(resources.GetObject("btnClose.Image"), System.Drawing.Image)
+        Me.btnClose.Location = New System.Drawing.Point(1879, 20)
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(20, 20)
+        Me.btnClose.TabIndex = 45
+        Me.btnClose.TabStop = False
+        '
+        'jam
+        '
+        Me.jam.AutoSize = True
+        Me.jam.Font = New System.Drawing.Font("Poppins", 13.74545!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.jam.ForeColor = System.Drawing.Color.Black
+        Me.jam.Location = New System.Drawing.Point(927, 15)
+        Me.jam.Name = "jam"
+        Me.jam.Size = New System.Drawing.Size(107, 37)
+        Me.jam.TabIndex = 44
+        Me.jam.Text = "12.45 PM"
         '
         'Label3
         '
@@ -259,39 +292,6 @@ Partial Class laporan_bulanan
         Me.Label4.TabIndex = 93
         Me.Label4.Text = "Tahun"
         '
-        'btnMin
-        '
-        Me.btnMin.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(194, Byte), Integer))
-        Me.btnMin.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnMin.Image = CType(resources.GetObject("btnMin.Image"), System.Drawing.Image)
-        Me.btnMin.Location = New System.Drawing.Point(1799, 20)
-        Me.btnMin.Name = "btnMin"
-        Me.btnMin.Size = New System.Drawing.Size(20, 20)
-        Me.btnMin.TabIndex = 47
-        Me.btnMin.TabStop = False
-        '
-        'btnMax
-        '
-        Me.btnMax.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(194, Byte), Integer))
-        Me.btnMax.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnMax.Image = CType(resources.GetObject("btnMax.Image"), System.Drawing.Image)
-        Me.btnMax.Location = New System.Drawing.Point(1839, 20)
-        Me.btnMax.Name = "btnMax"
-        Me.btnMax.Size = New System.Drawing.Size(20, 20)
-        Me.btnMax.TabIndex = 46
-        Me.btnMax.TabStop = False
-        '
-        'btnClose
-        '
-        Me.btnClose.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(194, Byte), Integer))
-        Me.btnClose.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnClose.Image = CType(resources.GetObject("btnClose.Image"), System.Drawing.Image)
-        Me.btnClose.Location = New System.Drawing.Point(1879, 20)
-        Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(20, 20)
-        Me.btnClose.TabIndex = 45
-        Me.btnClose.TabStop = False
-        '
         'laporan_bulanan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -327,7 +327,7 @@ Partial Class laporan_bulanan
     Friend WithEvents btnMin As System.Windows.Forms.PictureBox
     Friend WithEvents btnMax As System.Windows.Forms.PictureBox
     Friend WithEvents btnClose As System.Windows.Forms.PictureBox
-    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents jam As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents btnEkspor As Guna.UI.WinForms.GunaButton
     Friend WithEvents btnPrint As Guna.UI.WinForms.GunaButton

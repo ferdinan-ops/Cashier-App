@@ -28,7 +28,7 @@ Partial Class laporan_tahunan
         Me.btnMin = New System.Windows.Forms.PictureBox()
         Me.btnMax = New System.Windows.Forms.PictureBox()
         Me.btnClose = New System.Windows.Forms.PictureBox()
-        Me.Label11 = New System.Windows.Forms.Label()
+        Me.jam = New System.Windows.Forms.Label()
         Me.ComboBox2 = New Guna.UI.WinForms.GunaComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.btnEkspor = New Guna.UI.WinForms.GunaButton()
@@ -49,7 +49,7 @@ Partial Class laporan_tahunan
         Me.panelHeader.Controls.Add(Me.btnMin)
         Me.panelHeader.Controls.Add(Me.btnMax)
         Me.panelHeader.Controls.Add(Me.btnClose)
-        Me.panelHeader.Controls.Add(Me.Label11)
+        Me.panelHeader.Controls.Add(Me.jam)
         Me.panelHeader.Dock = System.Windows.Forms.DockStyle.Top
         Me.panelHeader.Location = New System.Drawing.Point(0, 0)
         Me.panelHeader.Name = "panelHeader"
@@ -100,16 +100,16 @@ Partial Class laporan_tahunan
         Me.btnClose.TabIndex = 45
         Me.btnClose.TabStop = False
         '
-        'Label11
+        'jam
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Poppins", 13.74545!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(703, 15)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(107, 37)
-        Me.Label11.TabIndex = 44
-        Me.Label11.Text = "12.45 PM"
+        Me.jam.AutoSize = True
+        Me.jam.Font = New System.Drawing.Font("Poppins", 13.74545!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.jam.ForeColor = System.Drawing.Color.Black
+        Me.jam.Location = New System.Drawing.Point(927, 15)
+        Me.jam.Name = "jam"
+        Me.jam.Size = New System.Drawing.Size(107, 37)
+        Me.jam.TabIndex = 44
+        Me.jam.Text = "12.45 PM"
         '
         'ComboBox2
         '
@@ -291,7 +291,7 @@ Partial Class laporan_tahunan
     Friend WithEvents btnMin As System.Windows.Forms.PictureBox
     Friend WithEvents btnMax As System.Windows.Forms.PictureBox
     Friend WithEvents btnClose As System.Windows.Forms.PictureBox
-    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents jam As System.Windows.Forms.Label
     Friend WithEvents ComboBox2 As Guna.UI.WinForms.GunaComboBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents btnEkspor As Guna.UI.WinForms.GunaButton

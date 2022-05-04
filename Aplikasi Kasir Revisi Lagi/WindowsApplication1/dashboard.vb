@@ -256,6 +256,12 @@ Public Class dashboard
         'barang
         Call tampil_barang()
         'Akhir barang
+        jam.Text = Format(Now, "hh:mm tt")
     End Sub
     'akhir load
+
+    Private Sub btnLogout_Click(sender As Object, e As EventArgs) Handles btnLogout.Click
+        Me.Hide()
+        login.Show()
+    End Sub
 End Class

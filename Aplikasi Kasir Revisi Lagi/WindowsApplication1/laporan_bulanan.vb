@@ -3,7 +3,8 @@ Imports CrystalDecisions.CrystalReports.Engine
 Imports CrystalDecisions.Shared
 Public Class laporan_bulanan
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
-        End
+        Me.Hide()
+        dashboard.Show()
     End Sub
 
     Private Sub btnMax_Click(sender As Object, e As EventArgs) Handles btnMax.Click
@@ -53,5 +54,9 @@ Public Class laporan_bulanan
 
     Private Sub btnEkspor_Click(sender As Object, e As EventArgs) Handles btnEkspor.Click
         CrystalReportViewer1.ExportReport()
+    End Sub
+
+    Private Sub laporan_bulanan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        jam.Text = Format(Now, "hh:mm tt")
     End Sub
 End Class
