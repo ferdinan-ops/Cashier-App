@@ -227,6 +227,10 @@ Public Class dashboard
         Me.Hide()
         laporan_bulanan.Show()
     End Sub
+    Private Sub btnTahun_Click(sender As Object, e As EventArgs) Handles btnTahun.Click
+        Me.Hide()
+        laporan_tahunan.Show()
+    End Sub
     'akhir laporan
 
     'load
