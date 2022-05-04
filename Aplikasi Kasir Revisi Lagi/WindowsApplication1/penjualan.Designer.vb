@@ -24,7 +24,7 @@ Partial Class penjualan
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(penjualan))
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.panelHeader = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnMin = New System.Windows.Forms.PictureBox()
@@ -62,6 +62,7 @@ Partial Class penjualan
         Me.v0totalharga = New System.Windows.Forms.TextBox()
         Me.GunaButton1 = New Guna.UI.WinForms.GunaButton()
         Me.GunaElipsePanel2 = New Guna.UI.WinForms.GunaElipsePanel()
+        Me.v0dibayar = New Guna.UI.WinForms.GunaTextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
@@ -70,7 +71,6 @@ Partial Class penjualan
         Me.Label16 = New System.Windows.Forms.Label()
         Me.GunaButton2 = New Guna.UI.WinForms.GunaButton()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.v0dibayar = New Guna.UI.WinForms.GunaTextBox()
         Me.panelHeader.SuspendLayout()
         CType(Me.btnMin, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnMax, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -359,14 +359,14 @@ Partial Class penjualan
         '
         Me.DataGridView1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7})
         Me.DataGridView1.Location = New System.Drawing.Point(73, 407)
@@ -520,6 +520,26 @@ Partial Class penjualan
         Me.GunaElipsePanel2.Size = New System.Drawing.Size(716, 182)
         Me.GunaElipsePanel2.TabIndex = 75
         '
+        'v0dibayar
+        '
+        Me.v0dibayar.BaseColor = System.Drawing.Color.Black
+        Me.v0dibayar.BorderColor = System.Drawing.Color.Black
+        Me.v0dibayar.BorderSize = 0
+        Me.v0dibayar.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.v0dibayar.FocusedBaseColor = System.Drawing.Color.Black
+        Me.v0dibayar.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.v0dibayar.FocusedForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.v0dibayar.Font = New System.Drawing.Font("Poppins", 28.14545!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.v0dibayar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
+        Me.v0dibayar.Location = New System.Drawing.Point(216, 67)
+        Me.v0dibayar.Name = "v0dibayar"
+        Me.v0dibayar.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.v0dibayar.SelectedText = ""
+        Me.v0dibayar.Size = New System.Drawing.Size(480, 76)
+        Me.v0dibayar.TabIndex = 68
+        Me.v0dibayar.Text = "2.000.000"
+        Me.v0dibayar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
         'Label12
         '
         Me.Label12.AutoSize = True
@@ -622,26 +642,6 @@ Partial Class penjualan
         '
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 1000
-        '
-        'v0dibayar
-        '
-        Me.v0dibayar.BaseColor = System.Drawing.Color.Black
-        Me.v0dibayar.BorderColor = System.Drawing.Color.Black
-        Me.v0dibayar.BorderSize = 0
-        Me.v0dibayar.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.v0dibayar.FocusedBaseColor = System.Drawing.Color.Black
-        Me.v0dibayar.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.v0dibayar.FocusedForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.v0dibayar.Font = New System.Drawing.Font("Poppins", 28.14545!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.v0dibayar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
-        Me.v0dibayar.Location = New System.Drawing.Point(216, 67)
-        Me.v0dibayar.Name = "v0dibayar"
-        Me.v0dibayar.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.v0dibayar.SelectedText = ""
-        Me.v0dibayar.Size = New System.Drawing.Size(480, 76)
-        Me.v0dibayar.TabIndex = 68
-        Me.v0dibayar.Text = "2.000.000"
-        Me.v0dibayar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'penjualan
         '

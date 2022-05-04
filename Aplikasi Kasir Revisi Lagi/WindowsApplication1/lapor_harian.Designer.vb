@@ -233,22 +233,22 @@ Partial Class lapor_harian
         Me.Label3.ForeColor = System.Drawing.Color.Black
         Me.Label3.Location = New System.Drawing.Point(264, 309)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(193, 37)
+        Me.Label3.Size = New System.Drawing.Size(112, 37)
         Me.Label3.TabIndex = 83
-        Me.Label3.Text = "Laporan Harian"
+        Me.Label3.Text = "Tanggal"
         '
         'DateTimePicker1
         '
         Me.DateTimePicker1.BackColor = System.Drawing.Color.Transparent
         Me.DateTimePicker1.BaseColor = System.Drawing.Color.White
         Me.DateTimePicker1.BorderColor = System.Drawing.Color.Black
-        Me.DateTimePicker1.CustomFormat = "dd/MM/yyy"
+        Me.DateTimePicker1.CustomFormat = "MM/dd/yyy"
         Me.DateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
         Me.DateTimePicker1.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(14, Byte), Integer))
         Me.DateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.DateTimePicker1.ForeColor = System.Drawing.Color.Black
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker1.Location = New System.Drawing.Point(472, 313)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(384, 313)
         Me.DateTimePicker1.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         Me.DateTimePicker1.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         Me.DateTimePicker1.Name = "DateTimePicker1"
@@ -259,7 +259,7 @@ Partial Class lapor_harian
         Me.DateTimePicker1.Radius = 5
         Me.DateTimePicker1.Size = New System.Drawing.Size(215, 30)
         Me.DateTimePicker1.TabIndex = 84
-        Me.DateTimePicker1.Text = "03/05/2022"
+        Me.DateTimePicker1.Text = "05/03/2022"
         Me.DateTimePicker1.Value = New Date(2022, 5, 3, 0, 0, 0, 0)
         '
         'lapor_harian

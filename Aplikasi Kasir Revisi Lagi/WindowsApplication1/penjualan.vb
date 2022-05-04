@@ -65,7 +65,7 @@ Public Class penjualan
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        v0tanggal.Text = Format(Now, "dd/MM/yyyy")
+        v0tanggal.Text = Format(Now, "MM/dd/yyyy")
         v0jam.Text = Format(Now, "HH:mm:ss")
     End Sub
 
