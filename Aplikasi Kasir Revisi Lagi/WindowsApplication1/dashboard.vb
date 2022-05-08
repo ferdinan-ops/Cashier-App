@@ -11,6 +11,22 @@ Public Class dashboard
     Private Sub btnMin_Click(sender As Object, e As EventArgs) Handles btnMin.Click
         Me.WindowState = FormWindowState.Minimized
     End Sub
+    'transaksi
+    Sub transaksi2()
+        Cmd = New OleDbCommand("select * from tbl_jual", Conn)
+        Rd = Cmd.ExecuteReader
+        DataGridView1.Rows.Clear()
+        Do While Rd.Read = True
+            DataGridView1.Rows.Add(Rd(0), Rd(1), Rd(2), Rd(3), Rd(4), Rd(5), Rd(6))
+        Loop
+    End Sub
+    Sub jlh_transaksi()
+        Dim rowcount As Integer
+        rowcount = DataGridView1.Rows.Count()
+        totalTransaksi.Text = rowcount
+    End Sub
+    'akhir transaksi
+
     'Dashboard
     Private Sub btndaftar_Click(sender As Object, e As EventArgs) Handles btnHome.Click
         Call jlh_barang()
@@ -21,6 +37,7 @@ Public Class dashboard
         user.Hide()
         barang.Hide()
         laporan.Hide()
+        transaksi.Hide()
         home.Show()
 
         btnpengguna.BaseColor = Color.White
@@ -63,6 +80,7 @@ Public Class dashboard
         btnpengguna.Image = WindowsApplication1.My.Resources.Resources.pengguna2
         home.Hide()
         barang.Hide()
+        transaksi.Hide()
         laporan.Hide()
         user.Show()
 
@@ -119,6 +137,7 @@ Public Class dashboard
         home.Hide()
         user.Hide()
         laporan.Hide()
+        transaksi.Hide()
         barang.Show()
 
         btnpengguna.BaseColor = Color.White
@@ -172,6 +191,7 @@ Public Class dashboard
         btnJual.ForeColor = Color.White
         btnJual.Image = WindowsApplication1.My.Resources.Resources.penjualan2
         Me.Hide()
+        transaksi.Hide()
         penjualan.Show()
 
         btnpengguna.BaseColor = Color.White
@@ -200,6 +220,7 @@ Public Class dashboard
         home.Hide()
         user.Hide()
         barang.Hide()
+        transaksi.Hide()
         laporan.Show()
 
         btnpengguna.BaseColor = Color.White
@@ -240,6 +261,8 @@ Public Class dashboard
         btnHome.Image = WindowsApplication1.My.Resources.Resources.dashboard2
         user.Hide()
         barang.Hide()
+        laporan.Hide()
+        transaksi.Hide()
         home.Show()
 
         'Dashboard
@@ -256,11 +279,19 @@ Public Class dashboard
         'barang
         Call tampil_barang()
         'Akhir barang
+
+        'transaksi
+        Call transaksi2()
+        Call jlh_transaksi()
+        'akhir transaksi
+
         jam.Text = Format(Now, "hh:mm tt")
     End Sub
     'akhir load
 
     Private Sub btnLogout_Click(sender As Object, e As EventArgs) Handles btnLogout.Click
+        login.txtUsername.Clear()
+        login.txtPassword.Clear()
         Me.Hide()
         login.Show()
     End Sub

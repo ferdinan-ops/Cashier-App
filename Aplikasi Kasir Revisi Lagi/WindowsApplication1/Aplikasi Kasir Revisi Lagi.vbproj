@@ -259,6 +259,12 @@
     <Compile Include="register.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="transaksi.Designer.vb">
+      <DependentUpon>transaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="transaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="input_barang.resx">
@@ -348,6 +354,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transaksi.resx">
+      <DependentUpon>transaksi.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

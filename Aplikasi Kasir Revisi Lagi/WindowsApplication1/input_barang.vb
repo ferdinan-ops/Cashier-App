@@ -4,14 +4,14 @@ Public Class input_barang
         Call konekdb()
         Dim hitung As Long
         Dim urutan As String
-        Cmd = New OleDbCommand("select KodeUser from tbl_barang order by KodeBarang desc", Conn)
+        Cmd = New OleDbCommand("select KodeBarang from tbl_barang order by KodeBarang desc", Conn)
         Rd = Cmd.ExecuteReader
         Rd.Read()
         If Not Rd.HasRows = True Then
-            urutan = "U" + "001"
+            urutan = "B" + "001"
         Else
             hitung = Microsoft.VisualBasic.Right(Rd.GetString(0), 3) + 1
-            urutan = "U" + Microsoft.VisualBasic.Right("000" & hitung, 3)
+            urutan = "B" + Microsoft.VisualBasic.Right("000" & hitung, 3)
         End If
         txtKodeBarang.Text = urutan
 
