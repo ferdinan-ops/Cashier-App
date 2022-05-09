@@ -135,12 +135,6 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_user.Designer.vb">
-      <DependentUpon>Form_user.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_user.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Laporan_harian.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -225,9 +219,6 @@
     <EmbeddedResource Include="Lap_Jual_Tahun.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Lap_Jual_Tahun.vb</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_user.resx">
-      <DependentUpon>Form_user.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Laporan_harian.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

@@ -47,18 +47,6 @@ D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Ka
 D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
 D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\bin\Debug\WindowsApplication1.xml
 D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\Aplikasi Kasir Revisi Lagi.vbprojResolveAssemblyReference.cache
-D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_flash.resources
-D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.form_register.resources
-D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_databarang.resources
-D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_inputbarang.resources
-D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_laporandatabarang.resources
-D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Lap_Harian.resources
-D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Lap_Jual_Bulanan.resources
-D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Lap_Tahunan.resources
-D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_login.resources
-D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_Menu.resources
-D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_penjulan.resources
-D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Form_user.resources
 D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.login.resources
 D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
 D:\Kuliah\Semester 4\Desain & Analisa Algoritma\Tugas Kelompok\VBNET Aplikasi Kasir Revisi Lagi cok\Aplikasi Kasir Revisi Lagi\WindowsApplication1\obj\Debug\Aplikasi Kasir Revisi Lagi.vbproj.GenerateResource.Cache

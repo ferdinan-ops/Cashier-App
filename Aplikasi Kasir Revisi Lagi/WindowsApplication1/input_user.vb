@@ -76,7 +76,7 @@ Public Class input_user
             Cmd.ExecuteNonQuery()
             Cmd.ExecuteNonQuery()
             MessageBox.Show("Data Berhasil Di Hapus")
-            Call Form_databarang.koneksi()
+            Call konekdb()
             Call bersih()
             Call dashboard.tampil_user()
         End If
