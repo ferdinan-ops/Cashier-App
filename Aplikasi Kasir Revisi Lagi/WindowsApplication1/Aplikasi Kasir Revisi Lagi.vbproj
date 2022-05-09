@@ -141,18 +141,6 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_laporandatabarang.Designer.vb">
-      <DependentUpon>Form_laporandatabarang.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_laporandatabarang.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_login.Designer.vb">
-      <DependentUpon>Form_login.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_login.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Form_penjulan.Designer.vb">
       <DependentUpon>Form_penjulan.vb</DependentUpon>
     </Compile>
@@ -252,12 +240,6 @@
     <EmbeddedResource Include="Lap_Jual_Tahun.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Lap_Jual_Tahun.vb</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_laporandatabarang.resx">
-      <DependentUpon>Form_laporandatabarang.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_login.resx">
-      <DependentUpon>Form_login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_penjulan.resx">
       <DependentUpon>Form_penjulan.vb</DependentUpon>
