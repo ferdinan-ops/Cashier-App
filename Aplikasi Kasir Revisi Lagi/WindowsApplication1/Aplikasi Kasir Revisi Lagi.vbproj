@@ -98,12 +98,6 @@
     <Compile Include="dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_flash.Designer.vb">
-      <DependentUpon>Form_flash.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_flash.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="form_register.Designer.vb">
       <DependentUpon>form_register.vb</DependentUpon>
     </Compile>
@@ -147,34 +141,10 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_databarang.Designer.vb">
-      <DependentUpon>Form_databarang.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_databarang.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_inputbarang.Designer.vb">
-      <DependentUpon>Form_inputbarang.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_inputbarang.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Form_laporandatabarang.Designer.vb">
       <DependentUpon>Form_laporandatabarang.vb</DependentUpon>
     </Compile>
     <Compile Include="Form_laporandatabarang.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Lap_Harian.Designer.vb">
-      <DependentUpon>Form_Lap_Harian.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Lap_Harian.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Lap_Jual_Bulanan.Designer.vb">
-      <DependentUpon>Form_Lap_Jual_Bulanan.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Lap_Jual_Bulanan.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_Lap_Tahunan.Designer.vb">
@@ -187,12 +157,6 @@
       <DependentUpon>Form_login.vb</DependentUpon>
     </Compile>
     <Compile Include="Form_login.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Menu.Designer.vb">
-      <DependentUpon>Form_Menu.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Menu.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_penjulan.Designer.vb">
@@ -276,9 +240,6 @@
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_flash.resx">
-      <DependentUpon>Form_flash.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="form_register.resx">
       <DependentUpon>form_register.vb</DependentUpon>
     </EmbeddedResource>
@@ -298,29 +259,14 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Lap_Jual_Tahun.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_databarang.resx">
-      <DependentUpon>Form_databarang.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_inputbarang.resx">
-      <DependentUpon>Form_inputbarang.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form_laporandatabarang.resx">
       <DependentUpon>Form_laporandatabarang.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Lap_Harian.resx">
-      <DependentUpon>Form_Lap_Harian.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Lap_Jual_Bulanan.resx">
-      <DependentUpon>Form_Lap_Jual_Bulanan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Lap_Tahunan.resx">
       <DependentUpon>Form_Lap_Tahunan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_login.resx">
       <DependentUpon>Form_login.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Menu.resx">
-      <DependentUpon>Form_Menu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_penjulan.resx">
       <DependentUpon>Form_penjulan.vb</DependentUpon>
