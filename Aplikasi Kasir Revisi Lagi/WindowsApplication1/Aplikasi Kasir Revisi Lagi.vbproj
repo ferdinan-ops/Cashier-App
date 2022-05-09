@@ -98,12 +98,6 @@
     <Compile Include="dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_register.Designer.vb">
-      <DependentUpon>form_register.vb</DependentUpon>
-    </Compile>
-    <Compile Include="form_register.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="laporan_barang.Designer.vb">
       <DependentUpon>laporan_barang.vb</DependentUpon>
     </Compile>
@@ -139,12 +133,6 @@
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_penjulan.Designer.vb">
-      <DependentUpon>Form_penjulan.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_penjulan.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_user.Designer.vb">
@@ -222,9 +210,6 @@
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_register.resx">
-      <DependentUpon>form_register.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="laporan_barang.resx">
       <DependentUpon>laporan_barang.vb</DependentUpon>
     </EmbeddedResource>
@@ -240,9 +225,6 @@
     <EmbeddedResource Include="Lap_Jual_Tahun.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Lap_Jual_Tahun.vb</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_penjulan.resx">
-      <DependentUpon>Form_penjulan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_user.resx">
       <DependentUpon>Form_user.vb</DependentUpon>
